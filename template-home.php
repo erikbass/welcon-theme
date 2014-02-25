@@ -59,7 +59,7 @@ get_template_part('template-parts/slider');
                             ?>
                         </div>
 
-                        <div class="property-items-container clearfix">
+                        <div class="property-items-container clearfix" style="display:none;">
                             <?php
                             /* List of Properties on Homepage */
                             $number_of_properties = intval(get_option('theme_properties_on_home'));
@@ -99,7 +99,57 @@ get_template_part('template-parts/slider');
 
                         <?php theme_pagination( $home_properties_query->max_num_pages); ?>
 
+                        <!-- BLOCKS -->
+                            <link rel="stylesheet" type="text/css" href="<?php echo content_url(); ?>/themes/welcon/css/block.css">
+                            <script type="text/javascript" src="<?php echo content_url(); ?>/themes/welcon/js/block.js"></script>
+                            
+                            <section class="block">
+                                <h2>Futuros Lançamentos</h2>
+                                
+                                <ul>
+                                    <?
+                                        $cor = 1;
+                                        $home_properties_query = new WP_Query( $home_args );
+                                        if ( $home_properties_query->have_posts() ) :
+                                            while ( $home_properties_query->have_posts() ) :
+                                                $home_properties_query->the_post();
+                                                ?>
+                                                <li>
+                                                    <div class="blocks bgTom0<?= $cor ?>">
+                                                        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+                                                            <div class="imgBlock" style="background-image: url('<?= wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) ?>');"></div>
+                                                            <div class="txtBlock">
+                                                                <span><?php the_title(); ?></span>
+                                                                Porto Velho, Rond&ocirc;nia
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            <?
+                                                if($cor == 1){$cor=2;}else{$cor=1;}
+                                            endwhile;
+                                            wp_reset_query();
+                                        else:
+                                            ?>
+                                            <div class="alert-wrapper">
+                                                <h4><?php _e('Em breve!', 'framework') ?></h4>
+                                            </div>
+                                            <?php
+                                        endif;
+                                    ?>
+
+                                </ul>
+
+                                <div class="ctrl">
+                                    <a href="#" class="prev">&lsaquo;</a>
+                                    <a href="#" class="next">&rsaquo;</a>
+                                </div>
+                            </section>
+                        <!-- BLOCKS fim -->
+
                     </section>
+
+                    
 
                     <?php
                     /* Featured Properties */

@@ -1,3 +1,52 @@
+/**/
+  .header-wrapper{
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #29A5BE;
+  }
+  .search-heading{
+    display: none;
+  }
+  .header-wrapper, #contact-email, #contact-email a, .user-nav a, .social_networks li a{
+   color:#929A9B;
+  }
+
+  #contact-email a:hover, .user-nav a:hover{
+    color:#b0b8b9;
+  }
+
+  #header-top, .social_networks li a, .user-nav a{
+    border-color:#bbb;
+  }
+
+  .main-menu ul li a{
+    color:#728788;
+  }
+
+  .main-menu ul li.current-menu-ancestor > a, .main-menu ul li.current-menu-parent > a, .main-menu ul li.current-menu-item > a, .main-menu ul li.current_page_item > a, .main-menu ul li:hover > a, .main-menu ul li ul, .main-menu ul li ul li ul{
+    background-color:#ec894d;
+  }
+
+  .main-menu ul li.current-menu-ancestor > a, .main-menu ul li.current-menu-parent > a, .main-menu ul li.current-menu-item > a, .main-menu ul li.current_page_item > a, .main-menu ul li:hover > a, .main-menu ul li ul, .main-menu ul li ul li a, .main-menu ul li ul li ul, .main-menu ul li ul li ul li a{
+    color:#ffffff;
+  }
+
+  .main-menu ul li ul li:hover > a, .main-menu ul li ul li ul li:hover > a{
+    background-color:#dc7d44;
+  }
+
+  @media (min-width: 980px) {
+    .contact-number, .contact-number .outer-strip{
+      background-color:#4dc7ec;
+    }
+    .contact-number{
+      color:#e7eff7;
+    }
+    .contact-number .fa-phone{
+      background-color:#37b3d9;
+    }
+  }
+/**/
+
 a:hover {
   color: #df5400;
 }

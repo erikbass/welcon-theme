@@ -1,0 +1,138 @@
+body {
+    font-family: helvetica;
+}
+*{
+	-webkit-box-sizing: border-box;
+   	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+
+	transition: all 0.5s linear;
+}
+a{
+	text-decoration: none;
+}
+
+/* Cores */
+	.bgTom01{
+		background-color: #37B3D9;
+	}
+	.bgTom02{
+		background-color: #044C6A;
+	}
+	.bgTom03{
+		background-color: #377B28;
+	}
+/* fim Cores */
+
+/* block */
+	.block{
+	    height: 345px;
+	    margin: 10px auto;
+	    overflow: hidden;
+	    position: relative;
+	    width: 1119px;
+	}
+	.block ul {
+		position:relative;
+		left:0;
+		top:0;
+		list-style:none;
+		margin:0;
+		padding:0;
+		width:1129px;
+	}
+	.block h2{
+		background-image: url('../images/iconWelcon.png');
+		background-repeat: no-repeat;
+		color: #044C6A;
+	    font-family: helvetica,arial;
+	    font-size: 22px;
+	    margin-bottom: 10px;
+	    margin-top: 5px;
+	    padding-left: 55px;
+	    text-align: left;
+	    text-transform: uppercase;
+	    width: 50%;
+	}
+/* fim block */
+	
+.blocks{
+	float: left;
+	font-size: 13px;
+	margin-right: 10px;
+	position: absolute;
+}
+.blocks a{
+	color: #fff;
+}
+.block li:nth-child(2) .blocks a, .block li:nth-child(3) .blocks a{
+	width: 735px;
+}
+.block li:nth-child(2) .blocks, .block li:nth-child(3) .blocks{
+	display: inline-flex;
+    height: 140px;	    
+    width: 735px;
+}
+.block li:nth-child(2) .blocks{
+	margin-bottom: 10px;
+	top: 0;
+	left: 373px;
+}
+.block li:nth-child(3) .blocks{
+	top: 150px;
+	left: 373px;
+}
+.block li:nth-child(4) .blocks{
+	left: 1129px
+}
+.blocks{
+	height: 290px;
+	width: 363px;
+	text-align: left;
+}
+.blocks span{
+	display: block;
+	font-family: georgia;
+    font-size: 22px;
+    font-style: italic;
+}
+.blocks .txtBlock{
+    padding-left: 20px;
+    padding-top: 2px;
+    vertical-align: middle;
+	display: table-cell;
+}
+.block li:nth-child(2) .blocks .txtBlock, .block li:nth-child(3) .blocks .txtBlock{
+    height: 140px;
+    width: 235px;
+    *float: right;
+}
+.imgBlock{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.blocks .imgBlock{    
+    height: 241px;
+    width: 363px;
+}
+.block li:nth-child(2) .blocks .imgBlock, .block li:nth-child(3) .blocks .imgBlock{
+	height: 140px;
+	width: 500px;
+}
+.ctrl{
+    font-size: 2em;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.ctrl a {
+    background-color: #E6ECED;
+    color: #9E9E9E;
+    padding: 0 7px;
+}
+.ctrl a:active{
+	background-color: #333;
+	margin-top: 10px;
+}
