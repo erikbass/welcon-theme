@@ -1,0 +1,2017 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Saqib <saqib@960development.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.3\n"
+
+#. Text in function
+#: realhomes/functions.php:1
+msgid "$"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/functions/theme_comment.php:41
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/functions/theme_comment.php:35
+msgid "%s"
+msgstr ""
+
+#. Text in function
+#: realhomes/comments.php:11
+msgid "(%) Comments"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/functions/theme_comment.php:17
+msgid "(Edit)"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-contact.php:95
+msgid "* Please provide a valid email address"
+msgstr ""
+
+#. Text in echo
+#: realhomes/property-details/property-agent.php:55
+msgid "* Please provide valid email address"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-contact.php:105
+#: realhomes/property-details/property-agent.php:57
+msgid "* Please provide your message"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-contact.php:90
+#: realhomes/property-details/property-agent.php:53
+msgid "* Please provide your name"
+msgstr ""
+
+#. Text in function
+#: realhomes/404.php:1
+msgid "404 - Page Not Found!"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/agent-post-type.php:1
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Add New"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/agent-post-type.php:1
+msgid "Add New Agent"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Add New Property"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Add New Property City"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Add New Property Feature"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Add New Property Status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Add New Property Type"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Add in Homepage Slider"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Add or remove Property Cities"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Add or remove Property Features"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Add or remove Property Status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Add or remove Property Types"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Address"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Advance Search Form Title"
+msgstr ""
+
+#. Text in echo
+#: realhomes/property-details/property-agent.php:19
+#: realhomes/framework/include/agent-post-type.php:1
+msgid "Agent"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+#: realhomes/framework/include/agent-post-type.php:1
+msgid "Agents"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/gallery.php:21
+msgid "All"
+msgstr ""
+
+#. Text in function
+#: realhomes/archive.php:1
+msgid "All Posts By"
+msgstr ""
+
+#. Text in function
+#: realhomes/archive.php:1
+msgid "All Posts in Category"
+msgstr ""
+
+#. Text in function
+#: realhomes/archive.php:1
+msgid "All Posts in Tag"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "All Property Cities"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "All Property Features"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "All Property Status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "All Property Types"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1
+msgid "Any"
+msgstr ""
+
+#. Text in function
+#: realhomes/archive.php:1
+msgid "Archives"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Banner Image"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Banner Sub Title"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Banner Title"
+msgstr ""
+
+#. Text in function
+#: realhomes/property-details/property-metas.php:1
+msgid "Bathroom"
+msgstr ""
+
+#. Text in function
+#: realhomes/property-details/property-metas.php:1
+#: realhomes/template-parts/advance-search.php:52
+#: realhomes/widgets/advance-search-widget.php:67
+msgid "Bathrooms"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Bathrooms*"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Baths"
+msgstr ""
+
+#. Text in function
+#: realhomes/property-details/property-metas.php:1
+msgid "Bedroom"
+msgstr ""
+
+#. Text in function
+#: realhomes/property-details/property-metas.php:1
+#: realhomes/template-parts/advance-search.php:43
+#: realhomes/widgets/advance-search-widget.php:58
+msgid "Bedrooms"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Bedrooms*"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Beds"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Cell Number"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+#: realhomes/banners/blog_page_banner.php:1
+msgid "Check out market updates"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid ""
+"Choose a Background Color for Drop Down Menu on Mouse Over. Base Theme Color "
+"is #dc7d44."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid ""
+"Choose a Background Color for Drop Down Menu. Base Theme Color is #ec894d."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid ""
+"Choose a Background Color for Header Phone Icon. Base Theme Color is #37b3d9."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid ""
+"Choose a Background Color for Header Phone Number. Base Theme Color is "
+"#4dc7ec."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Choose a Background Color for Header. Base Theme Color is #252A2B."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Choose a Borders Color for Header. Base Theme Color is #343A3B."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid ""
+"Choose a Color for Header Phone Number Text. Base Theme Color is #e7eff7."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Choose a Header Text Color for Header. Base Theme Color is #929A9B."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Choose a Text Color for Drop Down Menu. Base Theme Color is #ffffff."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Choose from the most used Property Cities"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Choose from the most used Property Features"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Choose from the most used Property Status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Choose from the most used Property Types"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "City"
+msgstr ""
+
+#. Text in echo
+#: realhomes/comments.php:30
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+#: realhomes/property-details/property-agent.php:49
+msgid "Contact"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Contact Address"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Contact Details Section Title"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Contact Email"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Contact Form Heading"
+msgstr ""
+
+#. Text in function
+#: realhomes/sidebar-contact.php:5 realhomes/functions.php:1
+msgid "Contact Sidebar"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Currency Sign"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Decimal Point Separator"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1 realhomes/sidebar.php:5
+msgid "Default Sidebar"
+msgstr ""
+
+#. Text in function
+#: realhomes/widgets/featured-properties-widget.php:1
+msgid "Displays Random or Recent Featured Properties"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Do you want to add this property in Homepage Slider ? If Yes, Then you also "
+"need to provide slider image below."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Do you want to display Featured Properties on Homepage ?"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Do you want to display slider on homepage ?"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Do you want to show Contact Details Section on contact page ?"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Do you want to show Google Map on contact page ?"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Do you want to show Partners Carousel above footer ?"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Do you want to show social icons in header ?"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Drag the google map marker to point your property location. You can also use "
+"the address field above to search for your property."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Drop Down Menu Background Color"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Drop Down Menu Background Color on Mouse Over"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Drop Down Menu Text Color"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/agent-post-type.php:1
+msgid "Edit Agent"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Edit Property"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Edit Property City"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Edit Property Feature"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Edit Property Status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Edit Property Type"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-contact.php:67 realhomes/template-contact.php:94
+#: realhomes/property-details/property-agent.php:55
+msgid "Email"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Email Address"
+msgstr ""
+
+#. Text in echo
+#: realhomes/header.php:74
+msgid "Email us at"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Enter Footer Copyright Text here."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Enter Footer Designed by Text here."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+#: realhomes/property-details/property-map.php:14
+msgid "Facebook"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Facebook URL"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Favicon"
+msgstr ""
+
+#. Text in echo
+#: realhomes/property-details/property-agent.php:37
+#: realhomes/template-agent-listing.php:72 realhomes/single-agent.php:60
+msgid "Fax"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Fax Number"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Featured Patners Meta"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Featured Properties"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Featured Properties Text"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Featured Properties Title"
+msgstr ""
+
+#. Text in echo
+#: realhomes/property-details/property-contents.php:51
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Features"
+msgstr ""
+
+#. Text in function
+#: realhomes/widgets/advance-search-widget.php:112
+msgid "Find Your Home"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Find your Home"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1
+msgid "First"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Footer"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Footer Copyright Text"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Footer Designed by Text"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1 realhomes/footer.php:11
+msgid "Footer First Column"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1 realhomes/footer.php:26
+msgid "Footer Fourth Column"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1 realhomes/footer.php:16
+msgid "Footer Second Column"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1 realhomes/footer.php:21
+msgid "Footer Third Column"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Gallery"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Gallery Images"
+msgstr ""
+
+#. Text in function
+#: realhomes/property-details/property-metas.php:1
+msgid "Garage"
+msgstr ""
+
+#. Text in function
+#: realhomes/property-details/property-metas.php:1
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Garages"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Garages*"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "General"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1
+msgid "Go to..."
+msgstr ""
+
+#. Text in echo
+#: realhomes/property-details/property-map.php:16
+msgid "Google"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Google Map Latitude"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Google Map Longitude"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Google Map Zoom"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Google Plus"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Google Plus URL"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Header"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Header Background Color"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Header Borders Color"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Header Email"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Header Phone Icon Background Color"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Header Phone Number"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Header Phone Number Background Color"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Header Phone Number Text Color"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Header Text Color"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Home"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"If you are not using self hosted videos then please provide the video embed "
+"code and remove the width and height attributes."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Images should have minimum width of 830px and minimum height of 323px, "
+"Bigger size images will be cropped automatically."
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/functions/contact_form_handler.php:1
+msgid "Invalid Request !"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid ""
+"Just want to do some quick CSS changes? Enter them here, they will be "
+"applied to the theme. If you need to change major portions of the theme "
+"please use the \"css/custom.css\" file."
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/slider.php:42
+#: realhomes/template-parts/carousel.php:58
+msgid "Know More"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1
+msgid "Last"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Lightbox Plugin"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "LinkedIn"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "LinkedIn URL"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/advance-search.php:16
+#: realhomes/widgets/advance-search-widget.php:31
+msgid "Location"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Logo"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Look for your desired property more efficiently"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1
+msgid "Main Menu"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Mark this Property as Featured"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Marking this property featured will display it in featured properties "
+"sections across the theme."
+msgstr ""
+
+#. Text in echo
+#: realhomes/widgets/advance-search-widget.php:85
+msgid "Max Price"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/advance-search.php:70
+msgid "Maximum Price"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-contact.php:104
+#: realhomes/property-details/property-agent.php:57
+msgid "Message"
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/functions/contact_form_handler.php:1
+msgid "Message Sent Successfully!"
+msgstr ""
+
+#. Text in echo
+#: realhomes/widgets/advance-search-widget.php:76
+msgid "Min Price"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/advance-search.php:61
+msgid "Minimum Price"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-contact.php:64
+#: realhomes/property-details/property-agent.php:34
+#: realhomes/template-agent-listing.php:69 realhomes/single-agent.php:57
+msgid "Mobile"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Mobile Number"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-agent-listing.php:79
+msgid "More Details"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/property-for-home.php:49
+#: realhomes/template-parts/property-for-grid.php:32
+#: realhomes/template-parts/property-for-listing.php:48
+msgid "More Details "
+msgstr ""
+
+#. Text in echo
+#: realhomes/widgets/featured-properties-widget.php:116
+msgid "Most Recent"
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/include/property-post-type.php:205
+msgid "NA"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-contact.php:89
+#: realhomes/property-details/property-agent.php:53
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/agent-post-type.php:1
+msgid "New Agent"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "New Property"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "New Property City Name"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "New Property Feature Name"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "New Property Status Name"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "New Property Type Name"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+#: realhomes/banners/blog_page_banner.php:1
+msgid "News"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1
+msgid "Next"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "No"
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/include/property-post-type.php:205
+msgid "No Address Provided!"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/agent-post-type.php:1
+msgid "No Agent found"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/agent-post-type.php:1
+msgid "No Agent found in Trash"
+msgstr ""
+
+#. Text in function
+#: realhomes/comments.php:11
+msgid "No Comment"
+msgstr ""
+
+#. Text in echo
+#: realhomes/widgets/featured-properties-widget.php:83
+msgid "No Featured Property Found!"
+msgstr ""
+
+#. Text in echo
+#: realhomes/loop.php:9
+msgid "No Posts Found!"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-search.php:57 realhomes/template-home.php:93
+msgid "No Properties Found!"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "No Property found"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "No Property found in Trash"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/common-taxonomy.php:32
+msgid "No Results Found"
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/include/property-post-type.php:205
+msgid "No Thumbnail"
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/include/partners-post-type.php:1
+msgid "No logo provided"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Number of Decimals Points"
+msgstr ""
+
+#. Text in echo
+#: realhomes/widgets/featured-properties-widget.php:110
+msgid "Number of Properties"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Number of Properties to display in Property Listing Template"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Number of Properties to display on Homepage"
+msgstr ""
+
+#. Text in echo
+#: realhomes/property-details/property-agent.php:31
+#: realhomes/template-agent-listing.php:66 realhomes/single-agent.php:54
+msgid "Office"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Office Number"
+msgstr ""
+
+#. Text in function
+#: realhomes/comments.php:11
+msgid "One Comment"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1 realhomes/sidebar-pages.php:5
+msgid "Pages Sidebar"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Parent Property City"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Parent Property City:"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Parent Property Feature"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Parent Property Feature:"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Parent Property Status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Parent Property Status:"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Parent Property Type"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Parent Property Type:"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Partner Url"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/partners-post-type.php:1
+msgid "Partners"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Partners Carousel Title ?"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Paste Google Analytics (or other) tracking code here."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Paste here Partner Website link"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-contact.php:61
+msgid "Phone"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Phone Number"
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/functions/theme_comment.php:17
+msgid "Pingback:"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Please provide property images, These images will be displayed in slider on "
+"property details page. Images should have minimum width of 770px and minimum "
+"height of 386px, Bigger size images will be cropped automatically."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Please provide the Banner Sub Title."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Please provide the Banner Title, Otherwise the Page Title will be displayed "
+"in its place."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Please select related Agent."
+msgstr ""
+
+#. Text in echo
+#: realhomes/404.php:31
+msgid "Please try using top navigation OR search for what you are looking for!"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Please upload the Banner Image. Otherwise the default banner image from "
+"theme options will be displayed."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Popular Property Cities"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Popular Property Features"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Popular Property Status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Popular Property Types"
+msgstr ""
+
+#. Text in echo
+#: realhomes/single.php:29 realhomes/template-parts/article-for-listing.php:13
+msgid "Posted on"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1
+msgid "Previous"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Price"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Price Format"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Price Postfix Text"
+msgstr ""
+
+#. Text in echo
+#: realhomes/property-details/property-contents.php:43
+msgid "Print this page"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Properties"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Properties Gallery"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Property"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Property Address*"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Property Cities"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Property City"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+#: realhomes/single-property.php:11
+msgid "Property Details"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Property Features"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Property Images*"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1 realhomes/sidebar-property-listing.php:5
+msgid "Property Listing Sidebar"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Property Location at Google Map*"
+msgstr ""
+
+#. Text in echo
+#: realhomes/property-details/property-map.php:9
+msgid "Property Map"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Property Price*"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1 realhomes/sidebar-property.php:5
+msgid "Property Sidebar"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Property Size*"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Property Status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Property Title"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/advance-search.php:34
+#: realhomes/widgets/advance-search-widget.php:49
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Property Type"
+msgstr ""
+
+#. Text in function
+#: realhomes/widgets/property-types-widget.php:1
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Property Types"
+msgstr ""
+
+#. Text in echo
+#: realhomes/property-details/property-video.php:11
+msgid "Property Video"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Advance Search Form title."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Provide Agent's Email Address. Agent related messages from contact form on "
+"property details page, will be sent on this email address."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide Agent's Facebook URL"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide Agent's Google Plus URL"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide Agent's LinkedIn URL"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide Agent's Twitter URL"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide Agent's fax number"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide Agent's mobile number"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide Agent's office number"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Cell Number that will be displayed in contact details section."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid ""
+"Provide Email Address that will be displayed in contact details section."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Email address to display in header."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Facebook URL to display its icon in social icons widget."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Featured Properties Custom Text."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Featured Properties Custom Title."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Google Map Latitude"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Google Map Longitude"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Google Map Zoom Level. Example: 17"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Google Plus URL to display its icon in social icons widget."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide LinkedIn URL to display its icon in social icons widget."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Phone Number that will be displayed in contact details section."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide RSS URL to display its icon in social icons widget."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide Related Information"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Title for contact details section."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide Twitter URL to display its icon in social icons widget."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide address that will be displayed in contact details section."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide currency sign. For Example: $"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide heading for contact form."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide number of bathrooms. Example Value: 2"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide number of bedrooms. Example Value: 4"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide number of garages. Example: 1"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide partners carousel title text."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide phone number to display in header."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide property Sale OR Rent Price."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Provide property address."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Provide property size with related measurement unit. Example Value: 240 sq ft"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid ""
+"Provide target email address that will receive messages from contact form."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide the Banner Sub Title for Gallery Pages."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide the Banner Sub Title for News Page."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide the Banner Title for Gallery Pages."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide the Banner Title for News Page."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide the decimal point separator. For Example: ."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Provide the image that will be displayed as place holder and when a user "
+"clicks over it the video will be opened in a lightbox. You must provide this "
+"image as otherwise the video will not be displayed on property details page. "
+"Image should have minimum width of 818px and minimum height 417px. Bigger "
+"size images will be cropped automatically."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Provide the image that will be displayed in Homepage Slider. The recommended "
+"image size is 2000px by 700px. You can use bigger or little smaller image "
+"but try to keep the same height to width ratio and use the exactly same size "
+"images for all properties that will be added in slider."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide the number of decimals points"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Provide the thousands separator. For Example: ,"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Provide virtual tour video URL. Theme supports YouTube, Vimeo, SWF File and "
+"MOV File"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Publish Time"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Quick CSS"
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/admin/admin-interface.php:148
+msgid "RESET"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "RSS"
+msgstr ""
+
+#. Text in echo
+#: realhomes/widgets/featured-properties-widget.php:117
+msgid "Random"
+msgstr ""
+
+#. Text in echo
+#: realhomes/widgets/featured-properties-widget.php:71
+msgid "Read More"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/article-for-listing.php:19
+msgid "Read more"
+msgstr ""
+
+#. Text in function
+#: realhomes/widgets/advance-search-widget.php:1
+msgid "RealHomes - Advance Search Widget"
+msgstr ""
+
+#. Text in function
+#: realhomes/widgets/featured-properties-widget.php:1
+msgid "RealHomes - Featured Properties"
+msgstr ""
+
+#. Text in function
+#: realhomes/widgets/property-types-widget.php:1
+msgid "RealHomes - Property Types"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/admin-interface.php:520
+msgid "Remove"
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/admin/admin-interface.php:143
+msgid "SAVE ALL CHANGES"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/advance-search.php:78
+#: realhomes/widgets/advance-search-widget.php:93
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/agent-post-type.php:1
+msgid "Search Agent"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Search Page URL"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Search Property"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Search Property Cities"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Search Property Features"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Search Property Status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Search Property Types"
+msgstr ""
+
+#. Text in echo
+#: realhomes/search.php:10
+msgid "Search Results"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/inc/fields/file-advanced.php:1
+msgid "Select Files"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/inc/fields/image-advanced.php:1
+msgid "Select Images"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Select a Tag"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Select the lightbox plugin that you want to use"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-contact.php:109 realhomes/template-agent-listing.php:86
+#: realhomes/single-agent.php:73
+msgid "Send Message"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Send us a message"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Separate Property Cities with commas"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Separate Property Features with commas"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Separate Property Status with commas"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Separate Property Types with commas"
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/functions/contact_form_handler.php:1
+msgid "Server Error: WordPress mail method failed!"
+msgstr ""
+
+#. Text in echo
+#: realhomes/property-details/property-map.php:13
+msgid "Share this"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Slider Image"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Slogan Text"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Slogan Title"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Slogan text  will appear on Homepage below slider."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Slogan title  will appear on Homepage below slider."
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/grid-listing-container.php:48
+#: realhomes/template-parts/listing-container.php:49
+msgid "Sorry No Results Found"
+msgstr ""
+
+#. Text in echo
+#: realhomes/widgets/featured-properties-widget.php:114
+msgid "Sort By:"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-parts/advance-search.php:25
+#: realhomes/widgets/advance-search-widget.php:40
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Styling"
+msgstr ""
+
+#. Text in echo
+#: realhomes/template-contact.php:99
+msgid "Subject"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid ""
+"Text provided here will appear after price. (You can also leave it empty) "
+"Example Value: Per Month"
+msgstr ""
+
+#. Text in function
+#: realhomes/404.php:1
+msgid "The page you are looking for is not here!"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/admin-interface.php:159
+msgid "Theme Options"
+msgstr ""
+
+#. Text in echo
+#: realhomes/comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in function
+#: realhomes/widgets/property-types-widget.php:1
+msgid "This widget displays a list of Property Types"
+msgstr ""
+
+#. Text in function
+#: realhomes/widgets/advance-search-widget.php:1
+msgid "This widget displays advance search form."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Thousands Separator"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Thumbnail"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid ""
+"To Configure The Search Functionality. Create a Property Search Page Using "
+"\"Property Search Template\" and Provide its URL here.(Also, Make sure to "
+"Configure Permalinks)"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Top Banner Area Settings"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Tracking Code"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+#: realhomes/property-details/property-map.php:15
+msgid "Twitter"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Twitter URL"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Type"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Update Property City"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Update Property Feature"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Update Property Status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "Update Property Type"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Upload Gallery Images"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/admin-interface.php:520
+msgid "Upload Image"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid ""
+"Upload a 16px by 16px PNG image that will represent your website favicon."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Upload a banner image of minimum 230px height and minimum 2000px width."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Upload logo for your Website."
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Video Embed Code"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/agent-post-type.php:1
+msgid "View Agent"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "View Property"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "View a list of Featured Properties."
+msgstr ""
+
+#. Text in function
+#: realhomes/template-parts/gallery.php:21
+msgid "View all Properties having %s status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Virtual Tour Video Image"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Virtual Tour Video URL"
+msgstr ""
+
+#. Text in echo
+#: realhomes/widgets/featured-properties-widget.php:106
+#: realhomes/widgets/property-types-widget.php:38
+#: realhomes/widgets/advance-search-widget.php:109
+msgid "Widget Title"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/admin/theme-settings.php:1
+msgid "Yes"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/meta-box/config-meta-boxes.php:1
+msgid "Yes "
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/functions/contact_form_handler.php:1
+msgid "You Have Received a Message From "
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/agent-post-type.php:1
+msgid "agent"
+msgstr ""
+
+#. Text in echo
+#: realhomes/single.php:30 realhomes/template-parts/article-for-listing.php:14
+msgid "by"
+msgstr ""
+
+#. Text in function
+#: realhomes/functions.php:1 realhomes/sidebar-dsIDX.php:5
+msgid "dsIDX Sidebar"
+msgstr ""
+
+#. Text in echo
+#: realhomes/single.php:30 realhomes/template-parts/article-for-listing.php:14
+msgid "in"
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/functions/theme_comment.php:38
+msgid "on"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "property"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "property-city"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "property-feature"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "property-status"
+msgstr ""
+
+#. Text in function
+#: realhomes/framework/include/property-post-type.php:1
+msgid "property-type"
+msgstr ""
+
+#. Text in echo
+#: realhomes/framework/functions/theme_comment.php:44
+msgid "said"
+msgstr ""
