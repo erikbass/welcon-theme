@@ -21,7 +21,7 @@ get_template_part('template-parts/slider');
                     <div id="acessorapido">
                         <ul>
                             <li class="bgTom01"><a href="#lancamentos">Futuros lançamentos</a></li>
-                            <li class="bgTom02"><a href="#incorporacao">Incorporação</a></li>
+                            <li class="bgTom02"><a href="#incorporadora">Incorporação</a></li>
                             <li class="bgTom03"><a href="#urbanismo">Urbanismo</a></li>
                         </ul>
                     </div>
@@ -110,31 +110,18 @@ get_template_part('template-parts/slider');
                             <link rel="stylesheet" type="text/css" href="<?php echo content_url(); ?>/themes/welcon/css/block.css">
                             <script type="text/javascript" src="<?php echo content_url(); ?>/themes/welcon/js/block.js"></script>
                             
-                            <section class="block" id="lancamentos">
-                                <h2>Futuros Lançamentos</h2>
-                                
+                            
+                            <section class="block lancamentos" id="lancamentos">
+                                <h2>Futuros Lançamentos</h2>                                
                                 <ul>
                                     <?
+                                        $idTermo = 10; // campo w_terms.term_id relacionado ao Tipo da propriedade
                                         $lancamentos_args = array(
                                             'post_type' => 'property',
                                             'tax_query' => array(
-                                                array(
-                                                    'taxonomy' => 'property-type',
-                                                    'field' => 'term_id',
-                                                    'terms' => 10
-                                                )
+                                                //array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 10)
                                             )
                                         );
-
-                                        $terms = get_terms('property-type', 'orderby=count&hide_empty=0');
-                                         $count = count($terms);
-                                         if ( $count > 0 ){
-                                            foreach ( $terms as $term ) {
-                                                //echo $term->term_id;
-                                            }
-                                         }
-                                         
-                                         //die;
 
                                         $cor = 1;
                                         $home_properties_query = new WP_Query( $lancamentos_args );
@@ -142,16 +129,6 @@ get_template_part('template-parts/slider');
                                         if ( $home_properties_query->have_posts() ) :
                                             while ( $home_properties_query->have_posts() ) :
                                                 $home_properties_query->the_post();
-                                                
-                                                // Property Type
-                                                $type_terms = get_the_terms( $post->ID,"property-type" );
-                                                if(!empty($type_terms)){
-                                                    foreach($type_terms as $typ_trms){
-                                                        $pro = $typ_trms->name." - ".$typ_trms->term_id;
-                                                        break;
-                                                    }
-                                                }
-
                                                 ?>
                                                 <li>
                                                     <div class="blocks bgTom0<?= $cor ?>">
@@ -160,7 +137,6 @@ get_template_part('template-parts/slider');
                                                             <div class="txtBlock">
                                                                 <span><?php the_title(); ?></span>
                                                                 Porto Velho, Rond&ocirc;nia
-                                                                <?php echo $pro; ?>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -177,7 +153,112 @@ get_template_part('template-parts/slider');
                                             <?php
                                         endif;
                                     ?>
+                                </ul>
 
+                                <div class="ctrl">
+                                    <a href="#" class="prev">&lsaquo;</a>
+                                    <a href="#" class="next">&rsaquo;</a>
+                                </div>
+                            </section>                           
+
+                            <!-- banner Mapa de Atuaçao -->
+                            <br>
+                            <a href="?page_id=349">
+                                <img src="./wp-content/themes/welcon/banners/bannerMapaAtuacao.jpg">
+                            </a>
+
+                            <section class="block urbanismo andamento" id="urbanismo">
+                                <h2>Urbanismo</h2>                                
+                                <ul>
+                                    <?
+                                        $idTermo = 10; // campo w_terms.term_id relacionado ao Tipo da propriedade
+                                        $lancamentos_args = array(
+                                            'post_type' => 'property',
+                                            'tax_query' => array(
+                                                //array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 10)
+                                            )
+                                        );
+
+                                        $cor = 1;
+                                        $home_properties_query = new WP_Query( $lancamentos_args );
+
+                                        if ( $home_properties_query->have_posts() ) :
+                                            while ( $home_properties_query->have_posts() ) :
+                                                $home_properties_query->the_post();
+                                                ?>
+                                                <li>
+                                                    <div class="blocks bgTom0<?= $cor ?>">
+                                                        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+                                                            <div class="imgBlock" style="background-image: url('<?= wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) ?>');"></div>
+                                                            <div class="txtBlock">
+                                                                <span><?php the_title(); ?></span>
+                                                                Porto Velho, Rond&ocirc;nia
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            <?
+                                                if($cor == 1){$cor=2;}else{$cor=1;}
+                                            endwhile;
+                                            wp_reset_query();
+                                        else:
+                                            ?>
+                                            <div class="alert-wrapper">
+                                                <h4><?php _e('Em breve!', 'framework') ?></h4>
+                                            </div>
+                                            <?php
+                                        endif;
+                                    ?>
+                                </ul>
+
+                                <div class="ctrl">
+                                    <a href="#" class="prev">&lsaquo;</a>
+                                    <a href="#" class="next">&rsaquo;</a>
+                                </div>
+                            </section>
+
+                            <section class="block andamento" id="incorporadora">
+                                <h2>Incorporadora</h2>                                
+                                <ul>
+                                    <?
+                                        $idTermo = 10; // campo w_terms.term_id relacionado ao Tipo da propriedade
+                                        $lancamentos_args = array(
+                                            'post_type' => 'property',
+                                            'tax_query' => array(
+                                                array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 10)
+                                            )
+                                        );
+
+                                        $cor = 1;
+                                        $home_properties_query = new WP_Query( $lancamentos_args );
+
+                                        if ( $home_properties_query->have_posts() ) :
+                                            while ( $home_properties_query->have_posts() ) :
+                                                $home_properties_query->the_post();
+                                                ?>
+                                                <li>
+                                                    <div class="blocks bgTom0<?= $cor ?>">
+                                                        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+                                                            <div class="imgBlock" style="background-image: url('<?= wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) ?>');"></div>
+                                                            <div class="txtBlock">
+                                                                <span><?php the_title(); ?></span>
+                                                                Porto Velho, Rond&ocirc;nia
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            <?
+                                                if($cor == 1){$cor=2;}else{$cor=1;}
+                                            endwhile;
+                                            wp_reset_query();
+                                        else:
+                                            ?>
+                                            <div class="alert-wrapper">
+                                                <h4><?php _e('Em breve!', 'framework') ?></h4>
+                                            </div>
+                                            <?php
+                                        endif;
+                                    ?>
                                 </ul>
 
                                 <div class="ctrl">
@@ -195,7 +276,7 @@ get_template_part('template-parts/slider');
                     /* Featured Properties */
                     $show_featured_properties = get_option('theme_show_featured_properties');
                     if($show_featured_properties == 'true'){
-                        get_template_part("template-parts/carousel") ;
+                        //get_template_part("template-parts/carousel") ;
                     }
                     ?>
                 </div><!-- End Main Content -->

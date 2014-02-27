@@ -11,6 +11,9 @@
 #header-top{
 	border:none;
 }
+.contact-number {
+    top: 64px;
+}
 #logo{
 
 }
@@ -33,6 +36,9 @@
     font-size: 11px;
     padding: 6px 10px;
     text-transform: uppercase;
+}
+.main-menu ul li ul{
+	top: 32px;
 }
 .logo-heading{
 	background-image: url("../images/logo.png");
