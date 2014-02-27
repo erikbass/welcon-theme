@@ -17,35 +17,42 @@ get_template_part('template-parts/slider');
 
                 <!-- Main Content -->
                 <div class="main">
+                    <!-- acesso rápido às categorias -->
+                    <div id="acessorapido">
+                        <ul>
+                            <li class="bgTom01"><a href="#lancamentos">Futuros lançamentos</a></li>
+                            <li class="bgTom02"><a href="#incorporacao">Incorporação</a></li>
+                            <li class="bgTom03"><a href="#urbanismo">Urbanismo</a></li>
+                        </ul>
+                    </div>
+
                     <?php
-                    /* Advance Search Form for Homepage */
-                    get_template_part('template-parts/advance-search');
+                        /* Advance Search Form for Homepage */
+                        get_template_part('template-parts/advance-search');
 
-                    if ( have_posts() ) :
-                        while ( have_posts() ) :
-                            the_post();
-                            $content = get_the_content('');
-                            if(!empty($content)){
-                                ?>
-                                <div class="inner-wrapper">
-                                    <article id="post-<?php the_ID(); ?>" <?php post_class("clearfix"); ?>>
-                                        <?php the_content(); ?>
-                                    </article>
-                                </div>
-                                <?php
-                            }
-                        endwhile;
-                    endif;
-
+                        if ( have_posts() ) :
+                            while ( have_posts() ) :
+                                the_post();
+                                $content = get_the_content('');
+                                if(!empty($content)){
+                                    ?>
+                                    <div class="inner-wrapper">
+                                        <article id="post-<?php the_ID(); ?>" <?php post_class("clearfix"); ?>>
+                                            <?php the_content(); ?>
+                                        </article>
+                                    </div>
+                                    <?php
+                                }
+                            endwhile;
+                        endif;
                     ?>
 
                     <section class="property-items">
 
                         <?php
-                        /* Slogan Title and Text */
-                        $slogan_title = get_option('theme_slogan_title');
-                        $slogan_text = get_option('theme_slogan_text');
-
+                            /* Slogan Title and Text */
+                            $slogan_title = get_option('theme_slogan_title');
+                            $slogan_text = get_option('theme_slogan_text');
                         ?>
                         <div class="narrative">
                             <?php
@@ -53,9 +60,9 @@ get_template_part('template-parts/slider');
                                 ?><h2><?php echo $slogan_title; ?></h2><?php
                             }
 
-                            if(!empty($slogan_text)){
+                            /*if(!empty($slogan_text)){
                                 ?><p><?php echo $slogan_text; ?></p><?php
-                            }
+                            }*/
                             ?>
                         </div>
 
@@ -97,22 +104,54 @@ get_template_part('template-parts/slider');
                             ?>
                         </div>
 
-                        <?php theme_pagination( $home_properties_query->max_num_pages); ?>
+                        <?php //theme_pagination( $home_properties_query->max_num_pages); ?>
 
                         <!-- BLOCKS -->
                             <link rel="stylesheet" type="text/css" href="<?php echo content_url(); ?>/themes/welcon/css/block.css">
                             <script type="text/javascript" src="<?php echo content_url(); ?>/themes/welcon/js/block.js"></script>
                             
-                            <section class="block">
+                            <section class="block" id="lancamentos">
                                 <h2>Futuros Lançamentos</h2>
                                 
                                 <ul>
                                     <?
+                                        $lancamentos_args = array(
+                                            'post_type' => 'property',
+                                            'tax_query' => array(
+                                                array(
+                                                    'taxonomy' => 'property-type',
+                                                    'field' => 'term_id',
+                                                    'terms' => 10
+                                                )
+                                            )
+                                        );
+
+                                        $terms = get_terms('property-type', 'orderby=count&hide_empty=0');
+                                         $count = count($terms);
+                                         if ( $count > 0 ){
+                                            foreach ( $terms as $term ) {
+                                                //echo $term->term_id;
+                                            }
+                                         }
+                                         
+                                         //die;
+
                                         $cor = 1;
-                                        $home_properties_query = new WP_Query( $home_args );
+                                        $home_properties_query = new WP_Query( $lancamentos_args );
+
                                         if ( $home_properties_query->have_posts() ) :
                                             while ( $home_properties_query->have_posts() ) :
                                                 $home_properties_query->the_post();
+                                                
+                                                // Property Type
+                                                $type_terms = get_the_terms( $post->ID,"property-type" );
+                                                if(!empty($type_terms)){
+                                                    foreach($type_terms as $typ_trms){
+                                                        $pro = $typ_trms->name." - ".$typ_trms->term_id;
+                                                        break;
+                                                    }
+                                                }
+
                                                 ?>
                                                 <li>
                                                     <div class="blocks bgTom0<?= $cor ?>">
@@ -121,6 +160,7 @@ get_template_part('template-parts/slider');
                                                             <div class="txtBlock">
                                                                 <span><?php the_title(); ?></span>
                                                                 Porto Velho, Rond&ocirc;nia
+                                                                <?php echo $pro; ?>
                                                             </div>
                                                         </a>
                                                     </div>
