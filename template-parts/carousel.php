@@ -55,7 +55,7 @@ if ( $featured_properties_query->have_posts() ) :
                                 </a>
                             </figure>
                             <h4><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h4>
-                            <p><?php framework_excerpt(8); ?> <a href="<?php the_permalink() ?>"> <?php _e('Know More','framework'); ?> </a> </p>
+                            <p><?php framework_excerpt(8); ?> <a href="<?php the_permalink() ?>"> <?php _e('Detalhes','framework'); ?> </a> </p>
                             <span class="price"><?php property_price(); ?></span>
                         </li>
                         <?php
