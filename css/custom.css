@@ -1,1 +1,92 @@
 /* Custom CSS File for Buyers to Modify */
+
+.header-wrapper {
+    background-color: #F9F9F9;
+    background-image: url("../images/bgTopo.jpg");
+    background-position: center top;
+    background-repeat: repeat-x;
+
+    height: 155px;
+}
+#header-top{
+	border:none;
+}
+#logo{
+
+}
+.tag-line{
+	display: none;
+}
+.menu-and-contact-wrap {
+    height: 32px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.main-menu {
+    float: none;
+    margin-top: 0;
+}
+.main-menu ul li a{
+	color: #72869A;
+    font-family: helvetica,arial;
+    font-size: 11px;
+    padding: 6px 10px;
+    text-transform: uppercase;
+}
+.logo-heading{
+	background-image: url("../images/logo.png");
+}
+
+.property-items .narrative h2{
+	color: #044C6A;
+	font-size: 28px;
+	font-family: georgia;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0 auto;
+	max-width: 523px;
+}
+
+/* acesso rapido */
+	.bgTom01{
+		background-color: #37B3D9;
+	}
+	.bgTom02{
+		background-color: #044C6A;
+	}
+	.bgTom03{
+		background-color: #50B43C;
+	}
+	
+	#acessorapido, #acessorapido ul{
+		display: table;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	#acessorapido ul li, #acessorapido ul li a{
+		display: table-cell;
+		height: 50px;
+		text-align: center;
+		vertical-align: middle;
+		width: 33.333%;
+	}
+	#acessorapido ul li a{
+		width: 21%;
+	}
+	#acessorapido ul li a{
+		font-family: helvetica,arial;
+		font-size: 16px;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+	#acessorapido .bgTom01 a{
+		color: #044C6A;
+	}
+	#acessorapido .bgTom02 a{
+		color: #fff;
+	}
+	#acessorapido .bgTom03 a{
+		color: #377B28;
+	}
