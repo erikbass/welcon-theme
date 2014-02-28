@@ -38,7 +38,7 @@ body {
 .main-menu ul li a{
 	color: #72869A;
     font-family: helvetica,arial;
-    font-size: 11px;
+    font-size: 1em;
     padding: 6px 10px;
     text-transform: uppercase;
 }
@@ -51,7 +51,7 @@ body {
 
 .property-items .narrative h2{
 	color: #044C6A;
-	font-size: 28px;
+	font-size: 2em;
 	font-family: georgia;
 	font-style: italic;
 	font-weight: normal;
@@ -88,7 +88,7 @@ body {
 	}
 	#acessorapido ul li a{
 		font-family: helvetica,arial;
-		font-size: 16px;
+		font-size: 1.1em;
 		text-transform: uppercase;
 		vertical-align: middle;
 	}
@@ -104,6 +104,22 @@ body {
 .main{
 	border-bottom: 1px solid #DEDEDE;
 }	
+.es-carousel-wrapper .es-carousel {
+    height: 75px;
+}
+.es-carousel-wrapper ul li{
+	width: 153px !important;
+}
+.carousel{
+	margin-bottom: 0;
+}
+.featured-properties-carousel.clearfix h4 {
+    margin-top: -10px;
+    text-align: center;
+}
+.featured-properties-carousel{
+	border: 1px solid #DEDEDE;
+}
 #footer-wrapper {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     padding-bottom: 0;

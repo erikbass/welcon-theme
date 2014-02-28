@@ -48,7 +48,7 @@
     </div>
 
     <div class="features">
-        <h4 class="title"><?php _e('Features', 'framework'); ?></h4>
+        <h4 class="title"><?php _e('Detalhes', 'framework'); ?></h4>
         <ul class="arrow-bullet-list clearfix">
             <?php
             /* Property Features */

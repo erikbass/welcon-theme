@@ -246,7 +246,7 @@ get_template_part('template-parts/slider');
                             </section>
 
                             <section class="block andamento" id="incorporadora">
-                                <h2>Incorporadora</h2>                                
+                                <h2>Incorporação</h2>                                
                                 <ul>
                                     <?
                                         $lancamentos_args = array(
@@ -307,6 +307,58 @@ get_template_part('template-parts/slider');
                     }
                     ?>
                 </div><!-- End Main Content -->
+
+                <!-- empresas do grupo -->
+                <section class="featured-properties-carousel clearfix">
+                    <h4><a target="_blank" href="http://www.grupoguareschi.com.br"><img src="./wp-content/themes/welcon/banners/grupo/grupo.png"></a></h4>
+                    <div class="carousel es-carousel-wrapper">
+                        <div class="es-carousel">
+                            <ul class="clearfix">
+                                <li>
+                                    <figure>
+                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gagro.png" /></a>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gcon.png" /></a>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gm.png" /></a>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gmix.png" /></a>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gnic.png" /></a>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gserv.png" /></a>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/mineracao.png" /></a>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/welcon.png" /></a>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <!-- fim empresas do grupo -->
 
             </div> <!-- End span12 -->
 
