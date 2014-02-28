@@ -67,14 +67,24 @@ jQuery(document).ready(function() {
 /* LANÇAMENTOS */
 	jQuery(document).ready(function() { 	
 		/* iniciando posicionado */
-			jQuery(".lancamentos li .blocks").animate({height : 290, width : 363, top: 0}, 100);
+			jQuery(".lancamentos li .blocks").animate({height : 290, width : 363, top: 0, opacity: 0}, 100);
 			jQuery(".lancamentos li .blocks .imgBlock").animate({height : 241, width : 363}, 100);
 
-			jQuery(".lancamentos li:first-child .blocks").animate({left : 0}, 100);
-			jQuery(".lancamentos li:nth-child(2) .blocks").animate({left : 373}, 100);		
-			jQuery(".lancamentos li:nth-child(3) .blocks").animate({left : 746, top:0}, 100);
-			jQuery(".lancamentos li:nth-child(4) .blocks").animate({opacity:0}, 100);
-			jQuery(".lancamentos li:nth-child(5) .blocks").animate({opacity: 0}, 100);
+			jQuery(".lancamentos li:first-child .blocks").animate({left : 0, opacity:1}, 100);
+			jQuery(".lancamentos li:nth-child(2) .blocks").animate({left : 373, opacity: 1}, 100);		
+			jQuery(".lancamentos li:nth-child(3) .blocks").animate({left : 746, top:0, opacity: 1}, 100);
+			jQuery(".lancamentos li:nth-child(4) .blocks").animate({opacity:0, left: 1119}, 100);
+			jQuery(".lancamentos li:nth-child(5) .blocks").animate({opacity: 0, left: -373}, 100);
+			jQuery(".lancamentos li:nth-child(6) .blocks").animate({opacity: 0}, 100);
+			jQuery(".lancamentos li:nth-child(7) .blocks").animate({opacity: 0}, 100);
+			jQuery(".lancamentos li:nth-child(8) .blocks").animate({opacity: 0}, 100);
+			jQuery(".lancamentos li:nth-child(9) .blocks").animate({opacity: 0}, 100);
+			jQuery(".lancamentos li:nth-child(10) .blocks").animate({opacity: 0}, 100);
+			jQuery(".lancamentos li:nth-child(11) .blocks").animate({opacity: 0}, 100);
+			jQuery(".lancamentos li:nth-child(12) .blocks").animate({opacity: 0}, 100);
+			jQuery(".lancamentos li:nth-child(13) .blocks").animate({opacity: 0}, 100);
+			jQuery(".lancamentos li:nth-child(14) .blocks").animate({opacity: 0}, 100);
+			jQuery(".lancamentos li:nth-child(15) .blocks").animate({opacity: 0}, 100);			
 
 			jQuery(".lancamentos li .blocks .txtBlock").animate({height : 50, width: 260}, 100);
 		/* */
@@ -99,12 +109,20 @@ jQuery(document).ready(function() {
 				jQuery(elementoPai).find('li:first-child').before(jQuery(elementoPai).find('li:last-child'));
 
 				jQuery(".lancamentos li:first-child .blocks").animate({left : 0, opacity:1}, 100);
-				jQuery(".lancamentos li:nth-child(2) .blocks").animate({left : 373}, 100);		
-				jQuery(".lancamentos li:nth-child(3) .blocks").animate({left : 746, top:0}, 100);
+				jQuery(".lancamentos li:nth-child(2) .blocks").animate({left : 373, opacity: 1}, 100);		
+				jQuery(".lancamentos li:nth-child(3) .blocks").animate({left : 746, top:0, opacity: 1}, 100);
 				jQuery(".lancamentos li:nth-child(4) .blocks").animate({opacity:0, left: 1119}, 100);
 				jQuery(".lancamentos li:nth-child(5) .blocks").animate({opacity: 0, left: -373}, 100);
 				jQuery(".lancamentos li:nth-child(6) .blocks").animate({opacity: 0}, 100);
 				jQuery(".lancamentos li:nth-child(7) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(8) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(9) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(10) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(11) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(12) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(13) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(14) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(15) .blocks").animate({opacity: 0}, 100);
 			});
 			return false;	
 		});
@@ -118,17 +136,25 @@ jQuery(document).ready(function() {
 				jQuery(elementoPai).find('li:last').after(jQuery(elementoPai).find('li:first-child'));
 
 				jQuery(".lancamentos li:first-child .blocks").animate({left : 0, opacity:1}, 100);
-				jQuery(".lancamentos li:nth-child(2) .blocks").animate({left : 373, opacity:1}, 100);		
-				jQuery(".lancamentos li:nth-child(3) .blocks").animate({left : 746, top:0, opacity:1}, 100);
+				jQuery(".lancamentos li:nth-child(2) .blocks").animate({left : 373, opacity: 1}, 100);		
+				jQuery(".lancamentos li:nth-child(3) .blocks").animate({left : 746, top:0, opacity: 1}, 100);
 				jQuery(".lancamentos li:nth-child(4) .blocks").animate({opacity:0, left: 1119}, 100);
 				jQuery(".lancamentos li:nth-child(5) .blocks").animate({opacity: 0, left: -373}, 100);
 				jQuery(".lancamentos li:nth-child(6) .blocks").animate({opacity: 0}, 100);
 				jQuery(".lancamentos li:nth-child(7) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(8) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(9) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(10) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(11) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(12) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(13) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(14) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(15) .blocks").animate({opacity: 0}, 100);
 			});
 			return false;				 
 		});
 		 
-		//Se o usuário está com o mouse sob a imagem, para a rotacao, caso contrário, continua
+		//Se o usuário está com o mouse sob a imagem, para a rotacao, caso contrário, continua		
 		jQuery('.lancamentos').hover(	 
 			function() {
 				clearInterval(run);
@@ -137,10 +163,11 @@ jQuery(document).ready(function() {
 				run = setInterval('rotate()', speed);
 			}
 		);
-		 
 	});
 		 
 	//O temporatizador chamará essa função e a rotação será feita
 	function rotate() {
-		jQuery('.lancamentos .next').click();
+		if (jQuery(".lancamentos li:nth-child(4)").length > 0){
+			jQuery('.lancamentos .next').click();
+		}
 	}

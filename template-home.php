@@ -10,7 +10,7 @@ get_template_part('template-parts/slider');
 ?>
     <style type="text/css">
         .fixedNav {
-            box-shadow: 0 0 5px #999999;
+            box-shadow: 0 0 5px #000;
             position: fixed;
             left: 0;
             top: 0;
@@ -141,16 +141,14 @@ get_template_part('template-parts/slider');
                             <link rel="stylesheet" type="text/css" href="<?php echo content_url(); ?>/themes/welcon/css/block.css">
                             <script type="text/javascript" src="<?php echo content_url(); ?>/themes/welcon/js/block.js"></script>
                             
-                            
                             <section class="block lancamentos" id="lancamentos">
                                 <h2>Futuros Lançamentos</h2>                                
                                 <ul>
                                     <?
-                                        $idTermo = 10; // campo w_terms.term_id relacionado ao Tipo da propriedade
                                         $lancamentos_args = array(
                                             'post_type' => 'property',
                                             'tax_query' => array(
-                                                //array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 10)
+                                                array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 13)
                                             )
                                         );
 
@@ -202,11 +200,10 @@ get_template_part('template-parts/slider');
                                 <h2>Urbanismo</h2>                                
                                 <ul>
                                     <?
-                                        $idTermo = 10; // campo w_terms.term_id relacionado ao Tipo da propriedade
                                         $lancamentos_args = array(
                                             'post_type' => 'property',
                                             'tax_query' => array(
-                                                //array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 10)
+                                                array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 9)
                                             )
                                         );
 
@@ -252,11 +249,10 @@ get_template_part('template-parts/slider');
                                 <h2>Incorporadora</h2>                                
                                 <ul>
                                     <?
-                                        $idTermo = 10; // campo w_terms.term_id relacionado ao Tipo da propriedade
                                         $lancamentos_args = array(
                                             'post_type' => 'property',
                                             'tax_query' => array(
-                                                array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 10)
+                                                array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 17)
                                             )
                                         );
 

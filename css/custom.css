@@ -1,5 +1,10 @@
 /* Custom CSS File for Buyers to Modify */
-
+body {
+    background-color: #F5F5F5;
+    background-image: url("../images/background-outer-wrapper.png");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+}
 .header-wrapper {
     background-color: #F9F9F9;
     background-image: url("../images/bgTopo.jpg");
@@ -96,3 +101,11 @@
 	#acessorapido .bgTom03 a{
 		color: #377B28;
 	}
+.main{
+	border-bottom: 1px solid #DEDEDE;
+}	
+#footer-wrapper {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding-bottom: 0;
+    color: #fff;
+}
