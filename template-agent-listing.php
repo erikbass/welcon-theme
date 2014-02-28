@@ -76,7 +76,7 @@ get_header();
                                                     <?php
                                                 }
                                                 ?>
-                                                <a href="<?php the_permalink(); ?>" class="more-details"><?php _e('More Details','framework'); ?><i class="icon-caret-right"></i></a>
+                                                <a href="<?php the_permalink(); ?>" class="more-details"><?php _e('Mais Detalhes','framework'); ?><i class="icon-caret-right"></i></a>
                                             </div>
 
                                             <div class="follow-agent clearfix">

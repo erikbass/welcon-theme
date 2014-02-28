@@ -40,7 +40,7 @@
         get_template_part('property-details/property-metas');
         ?>
         <!-- Print Icon -->
-        <span class="printer-icon"><a href="javascript:window.print()"><?php _e('Print this page', 'framework'); ?></a></span>
+        <span class="printer-icon"><a href="javascript:window.print()"><?php _e('Imprimir', 'framework'); ?></a></span>
     </div>
 
     <div class="content clearfix">

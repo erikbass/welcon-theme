@@ -867,14 +867,14 @@ msgstr ""
 
 #. Text in echo
 #: realhomes/template-agent-listing.php:79
-msgid "More Details"
+msgid "Mais Detalhes"
 msgstr ""
 
 #. Text in echo
 #: realhomes/template-parts/property-for-home.php:49
 #: realhomes/template-parts/property-for-grid.php:32
 #: realhomes/template-parts/property-for-listing.php:48
-msgid "More Details "
+msgid "Mais Detalhes "
 msgstr ""
 
 #. Text in echo
@@ -1204,7 +1204,7 @@ msgstr ""
 
 #. Text in echo
 #: realhomes/property-details/property-contents.php:43
-msgid "Print this page"
+msgid "Imprimir"
 msgstr ""
 
 #. Text in function

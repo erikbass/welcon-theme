@@ -46,7 +46,7 @@
                 ?>
             </h5>
             <p><?php framework_excerpt(14); ?></p>
-            <a class="more-details" href="<?php the_permalink() ?>"><?php _e('More Details ','framework'); ?><i class="icon-caret-right"></i></a>
+            <a class="more-details" href="<?php the_permalink() ?>"><?php _e('Mais Detalhes ','framework'); ?><i class="icon-caret-right"></i></a>
         </div>
 
         <div class="property-meta">

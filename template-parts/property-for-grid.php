@@ -29,6 +29,6 @@
     ?>
 
     <h4><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h4>
-    <p><?php framework_excerpt(10); ?> <a class="more-details" href="<?php the_permalink() ?>"><?php _e('More Details ','framework'); ?><i class="icon-caret-right"></i></a></p>
+    <p><?php framework_excerpt(10); ?> <a class="more-details" href="<?php the_permalink() ?>"><?php _e('Mais Detalhes ','framework'); ?><i class="icon-caret-right"></i></a></p>
     <span><?php property_price(); ?></span>
 </article>

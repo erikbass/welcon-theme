@@ -8,7 +8,7 @@ get_header();
         <div class="page-head" style="background-repeat: no-repeat;background-position: center top;background-image: url('<?php echo $banner_image_path; ?>'); ">
             <div class="container">
                 <div class="wrap clearfix">
-                    <h1 class="page-title"><span><?php _e('Property Details', 'framework'); ?></span></h1>
+                    <h1 class="page-title"><span><?php _e('Empreendimento', 'framework'); ?></span></h1>
                     <p><?php the_title(); ?></p>
                 </div>
             </div>
