@@ -8,6 +8,37 @@ get_header();
 get_template_part('template-parts/slider');
 
 ?>
+    <style type="text/css">
+        .fixedNav {
+            box-shadow: 0 0 5px #999999;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            z-index: 9999;
+        }
+    </style>
+    <script type="text/javascript">
+        jQuery(function(){
+            //////////
+            var nav = jQuery('#acessorapido');
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 628) {
+                    nav.addClass("fixedNav");
+                } else {
+                    nav.removeClass("fixedNav");
+                }
+            });
+
+            jQuery("#acessorapido a").click(function(){
+                var a_href = $(this).attr('href');
+                jQuery('html, body').animate({
+                    scrollTop: jQuery(a_href).offset().top - 75
+                }, 1000);
+            });
+        });
+        //////////
+    </script>
 
     <!-- Content -->
     <div class="container contents">

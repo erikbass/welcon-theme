@@ -65,82 +65,82 @@ jQuery(document).ready(function() {
 });
 
 /* LANÇAMENTOS */
-jQuery(document).ready(function() { 	
-	/* iniciando posicionado */
-		jQuery(".lancamentos li .blocks").animate({height : 290, width : 363, top: 0}, 100);
-		jQuery(".lancamentos li .blocks .imgBlock").animate({height : 241, width : 363}, 100);
+	jQuery(document).ready(function() { 	
+		/* iniciando posicionado */
+			jQuery(".lancamentos li .blocks").animate({height : 290, width : 363, top: 0}, 100);
+			jQuery(".lancamentos li .blocks .imgBlock").animate({height : 241, width : 363}, 100);
 
-		jQuery(".lancamentos li:first-child .blocks").animate({left : 0}, 100);
-		jQuery(".lancamentos li:nth-child(2) .blocks").animate({left : 373}, 100);		
-		jQuery(".lancamentos li:nth-child(3) .blocks").animate({left : 746, top:0}, 100);
-		jQuery(".lancamentos li:nth-child(4) .blocks").animate({opacity:0}, 100);
-		jQuery(".lancamentos li:nth-child(5) .blocks").animate({opacity: 0}, 100);
-
-		jQuery(".lancamentos li .blocks .txtBlock").animate({height : 50, width: 260}, 100);
-	/* */
-	if (jQuery(".lancamentos li:nth-child(4)").length < 1){
-		jQuery(".lancamentos .prev").hide();
-		jQuery(".lancamentos .next").hide();
-	}				 
-});
-
-jQuery(document).ready(function() {
-	//Velocidade da rotação e contador
-	var speed = 5000;
-	var run = setInterval('rotate()', speed);
-	 
-	//Se o usuário clica no botão ANTERIOR
-	jQuery('.lancamentos .prev').click(function() {	 
-		var elementoPai = jQuery(this).parent().siblings('ul');
-		//Move o item
-		jQuery(elementoPai).animate({'left' : 0}, 100, function () {			
-						
-			//Move o último item e o coloca como o primeiro
-			jQuery(elementoPai).find('li:first-child').before(jQuery(elementoPai).find('li:last-child'));
-
-			jQuery(".lancamentos li:first-child .blocks").animate({left : 0, opacity:1}, 100);
+			jQuery(".lancamentos li:first-child .blocks").animate({left : 0}, 100);
 			jQuery(".lancamentos li:nth-child(2) .blocks").animate({left : 373}, 100);		
 			jQuery(".lancamentos li:nth-child(3) .blocks").animate({left : 746, top:0}, 100);
-			jQuery(".lancamentos li:nth-child(4) .blocks").animate({opacity:0, left: 1119}, 100);
-			jQuery(".lancamentos li:nth-child(5) .blocks").animate({opacity: 0, left: -373}, 100);
-			jQuery(".lancamentos li:nth-child(6) .blocks").animate({opacity: 0}, 100);
-			jQuery(".lancamentos li:nth-child(7) .blocks").animate({opacity: 0}, 100);
-		});
-		return false;	
-	});
-	 
-	//Se o usuário clica no botão PROXIMO
-	jQuery('.lancamentos .next').click(function() {				 
-		var elementoPai = jQuery(this).parent().siblings('ul');
-		//Move o item
-		jQuery(elementoPai).animate({'left' : 0}, 100, function () {			
-			//Move o último item e o coloca como o primeiro
-			jQuery(elementoPai).find('li:last').after(jQuery(elementoPai).find('li:first-child'));
+			jQuery(".lancamentos li:nth-child(4) .blocks").animate({opacity:0}, 100);
+			jQuery(".lancamentos li:nth-child(5) .blocks").animate({opacity: 0}, 100);
 
-			jQuery(".lancamentos li:first-child .blocks").animate({left : 0, opacity:1}, 100);
-			jQuery(".lancamentos li:nth-child(2) .blocks").animate({left : 373, opacity:1}, 100);		
-			jQuery(".lancamentos li:nth-child(3) .blocks").animate({left : 746, top:0, opacity:1}, 100);
-			jQuery(".lancamentos li:nth-child(4) .blocks").animate({opacity:0, left: 1119}, 100);
-			jQuery(".lancamentos li:nth-child(5) .blocks").animate({opacity: 0, left: -373}, 100);
-			jQuery(".lancamentos li:nth-child(6) .blocks").animate({opacity: 0}, 100);
-			jQuery(".lancamentos li:nth-child(7) .blocks").animate({opacity: 0}, 100);
-		});
-		return false;				 
+			jQuery(".lancamentos li .blocks .txtBlock").animate({height : 50, width: 260}, 100);
+		/* */
+		if (jQuery(".lancamentos li:nth-child(4)").length < 1){
+			jQuery(".lancamentos .prev").hide();
+			jQuery(".lancamentos .next").hide();
+		}				 
 	});
-	 
-	//Se o usuário está com o mouse sob a imagem, para a rotacao, caso contrário, continua
-	jQuery('.lancamentos').hover(	 
-		function() {
-			clearInterval(run);
-		},
-		function() {
-			run = setInterval('rotate()', speed);
-		}
-	);
-	 
-});
-	 
-//O temporatizador chamará essa função e a rotação será feita
-function rotate() {
-	jQuery('.lancamentos .next').click();
-}
+
+	jQuery(document).ready(function() {
+		//Velocidade da rotação e contador
+		var speed = 5000;
+		var run = setInterval('rotate()', speed);
+		 
+		//Se o usuário clica no botão ANTERIOR
+		jQuery('.lancamentos .prev').click(function() {	 
+			var elementoPai = jQuery(this).parent().siblings('ul');
+			//Move o item
+			jQuery(elementoPai).animate({'left' : 0}, 100, function () {			
+							
+				//Move o último item e o coloca como o primeiro
+				jQuery(elementoPai).find('li:first-child').before(jQuery(elementoPai).find('li:last-child'));
+
+				jQuery(".lancamentos li:first-child .blocks").animate({left : 0, opacity:1}, 100);
+				jQuery(".lancamentos li:nth-child(2) .blocks").animate({left : 373}, 100);		
+				jQuery(".lancamentos li:nth-child(3) .blocks").animate({left : 746, top:0}, 100);
+				jQuery(".lancamentos li:nth-child(4) .blocks").animate({opacity:0, left: 1119}, 100);
+				jQuery(".lancamentos li:nth-child(5) .blocks").animate({opacity: 0, left: -373}, 100);
+				jQuery(".lancamentos li:nth-child(6) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(7) .blocks").animate({opacity: 0}, 100);
+			});
+			return false;	
+		});
+		 
+		//Se o usuário clica no botão PROXIMO
+		jQuery('.lancamentos .next').click(function() {				 
+			var elementoPai = jQuery(this).parent().siblings('ul');
+			//Move o item
+			jQuery(elementoPai).animate({'left' : 0}, 100, function () {			
+				//Move o último item e o coloca como o primeiro
+				jQuery(elementoPai).find('li:last').after(jQuery(elementoPai).find('li:first-child'));
+
+				jQuery(".lancamentos li:first-child .blocks").animate({left : 0, opacity:1}, 100);
+				jQuery(".lancamentos li:nth-child(2) .blocks").animate({left : 373, opacity:1}, 100);		
+				jQuery(".lancamentos li:nth-child(3) .blocks").animate({left : 746, top:0, opacity:1}, 100);
+				jQuery(".lancamentos li:nth-child(4) .blocks").animate({opacity:0, left: 1119}, 100);
+				jQuery(".lancamentos li:nth-child(5) .blocks").animate({opacity: 0, left: -373}, 100);
+				jQuery(".lancamentos li:nth-child(6) .blocks").animate({opacity: 0}, 100);
+				jQuery(".lancamentos li:nth-child(7) .blocks").animate({opacity: 0}, 100);
+			});
+			return false;				 
+		});
+		 
+		//Se o usuário está com o mouse sob a imagem, para a rotacao, caso contrário, continua
+		jQuery('.lancamentos').hover(	 
+			function() {
+				clearInterval(run);
+			},
+			function() {
+				run = setInterval('rotate()', speed);
+			}
+		);
+		 
+	});
+		 
+	//O temporatizador chamará essa função e a rotação será feita
+	function rotate() {
+		jQuery('.lancamentos .next').click();
+	}
