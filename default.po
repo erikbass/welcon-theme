@@ -766,7 +766,7 @@ msgstr ""
 #. Text in echo
 #: realhomes/template-parts/slider.php:42
 #: realhomes/template-parts/carousel.php:58
-msgid "Know More"
+msgid "Mais detalhes"
 msgstr ""
 
 #. Text in function
@@ -1179,7 +1179,7 @@ msgstr ""
 
 #. Text in echo
 #: realhomes/single.php:29 realhomes/template-parts/article-for-listing.php:13
-msgid "Posted on"
+msgid "Publicado em"
 msgstr ""
 
 #. Text in function
@@ -1589,12 +1589,12 @@ msgstr ""
 
 #. Text in echo
 #: realhomes/widgets/featured-properties-widget.php:71
-msgid "Read More"
+msgid "Mais detalhes"
 msgstr ""
 
 #. Text in echo
 #: realhomes/template-parts/article-for-listing.php:19
-msgid "Read more"
+msgid "Mais detalhes"
 msgstr ""
 
 #. Text in function
@@ -1665,7 +1665,7 @@ msgstr ""
 
 #. Text in echo
 #: realhomes/search.php:10
-msgid "Search Results"
+msgid "Resultados da pesquisa"
 msgstr ""
 
 #. Text in function

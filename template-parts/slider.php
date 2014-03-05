@@ -39,7 +39,7 @@ if($slider_query->have_posts() && $display_slider == 'true'){
                                     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                                     <p><?php framework_excerpt(15); ?></p>
                                     <span><?php property_price(); ?></span>
-                                    <a href="<?php the_permalink(); ?>" class="know-more"><?php _e('Destalhes','framework'); ?></a>
+                                    <a href="<?php the_permalink(); ?>" class="know-more"><?php _e('Detalhes','framework'); ?></a>
                                 </div>
                             </div>
                             <a href="<?php the_permalink(); ?>"><img src="<?php echo $slider_image_url; ?>" alt="<?php the_title(); ?>"></a>

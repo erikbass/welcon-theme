@@ -35,7 +35,7 @@ get_header();
                                 </article>
                                 <?php
                             endwhile;
-                            comments_template();
+                            //comments_template();
                         endif;
                         ?>
                     </div>

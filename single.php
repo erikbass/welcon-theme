@@ -26,7 +26,7 @@ get_header();
                                             <header>
                                                 <h3 class="post-title"><?php the_title(); ?></h3>
                                                 <div class="post-meta <?php echo $format; ?>-meta thumb-<?php echo has_post_thumbnail()?'exist':'not-exist'; ?>">
-                                                    <span> <?php _e('Posted on', 'framework'); ?>  <span class="date"> <?php the_time('F d, Y'); ?> </span></span>
+                                                    <span> <?php _e('Publicado em', 'framework'); ?>  <span class="date"> <?php the_time('F d, Y'); ?> </span></span>
                                                     <span> <?php _e('by', 'framework'); ?> <?php the_author(); ?> <?php _e('in', 'framework'); ?>  <?php the_category(', '); ?>  </span>
                                                 </div>
                                             </header>
@@ -40,7 +40,7 @@ get_header();
                                     wp_link_pages(array('before' => '<div class="pages-nav clearfix">', 'after' => '</div>', 'next_or_number' => 'next'));
 
                                 endwhile;
-                                comments_template();
+                                //comments_template();
                             endif;
                             ?>
                         </div>

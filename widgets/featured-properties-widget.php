@@ -68,7 +68,7 @@ class Featured_Properties_Widget extends WP_Widget {
                         }
                         ?>
                         <h4><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h4>
-                        <p><?php framework_excerpt(7); ?> <a href="<?php the_permalink(); ?>"><?php _e('Read More','framework'); ?></a></p>
+                        <p><?php framework_excerpt(7); ?> <a href="<?php the_permalink(); ?>"><?php _e('Mais detalhes','framework'); ?></a></p>
                         <span class="price"><?php property_price(); ?></span>
                     </li>
                     <?php
