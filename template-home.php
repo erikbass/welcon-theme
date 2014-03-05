@@ -17,6 +17,13 @@ get_template_part('template-parts/slider');
             width: 100%;
             z-index: 9999;
         }
+        .widget #searchform {
+            width: 50%;
+        }
+        .widget #s {
+            height: 33px;
+            width: 100%;
+        }
     </style>
     <script type="text/javascript">
         jQuery(function(){
@@ -57,26 +64,15 @@ get_template_part('template-parts/slider');
                         </ul>
                     </div>
 
-                    <?php
-                        /* Advance Search Form for Homepage */
-                        get_template_part('template-parts/advance-search');
-
-                        if ( have_posts() ) :
-                            while ( have_posts() ) :
-                                the_post();
-                                $content = get_the_content('');
-                                if(!empty($content)){
-                                    ?>
-                                    <div class="inner-wrapper">
-                                        <article id="post-<?php the_ID(); ?>" <?php post_class("clearfix"); ?>>
-                                            <?php the_content(); ?>
-                                        </article>
-                                    </div>
-                                    <?php
-                                }
-                            endwhile;
-                        endif;
-                    ?>
+                    <section class="widget">
+                        <form action="<?php echo $theme_search_url; ?>" class="searchform" id="searchform" method="get" role="search">
+                            <div>
+                                <label for="s" class="screen-reader-text">Pesquisar por:</label>
+                                <input type="text" id="s" name="s" value="">
+                                <input type="submit" value="Pesquisar" id="searchsubmit">
+                            </div>
+                        </form>
+                    </section>
 
                     <section class="property-items">
 
