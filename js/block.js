@@ -1,10 +1,12 @@
 /* INCORPORADORA e URBANISMO */
 jQuery(document).ready(function() { 	
 	/* iniciando posicionado */
-		jQuery(".andamento li:first-child .blocks").animate({height : 290, width : 363, left : 0}, 100);
+		jQuery(".andamento li .blocks").animate({opacity : 0}, 0);
+
+		jQuery(".andamento li:first-child .blocks").animate({height : 290, width : 363, left : 0, opacity : 1}, 100);
 		jQuery(".andamento li:first-child .blocks .imgBlock").animate({height : 241, width : 363}, 100);
 
-		jQuery(".andamento li:nth-child(2) .blocks").animate({height : 140,width : 735, top : 0, left: 373}, 100);
+		jQuery(".andamento li:nth-child(2) .blocks").animate({height : 140,width : 735, top : 0, left: 373, opacity : 1}, 100);
 		jQuery(".andamento li:nth-child(2) .blocks .imgBlock").animate({height : 140, width : 500}, 100);
 		
 		jQuery(".andamento li:nth-child(3) .blocks").animate({height : 140, opacity : 1, width : 735, top : 150, left : 373}, 100);

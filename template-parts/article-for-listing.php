@@ -10,8 +10,9 @@
     <header>
         <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         <div class="post-meta <?php echo $format; ?>-meta thumb-<?php echo has_post_thumbnail()?'exist':'not-exist'; ?>">
-            <span><?php _e('Publicado em', 'framework'); ?> <span class="date"> <?php the_time('F d, Y'); ?></span></span>
-            <span><?php _e('by', 'framework'); ?> <span class="author-link"><?php the_author_posts_link() ?></span> <?php _e('in', 'framework'); ?> <?php the_category(', '); ?> </span>
+            <span><?php _e('Publicado em', 'framework'); ?>
+                <span class="date"> <?php the_time('d \d\e F \d\e Y'); ?></span>
+            </span>
         </div>
     </header>
     <?php get_template_part( "post-formats/$format" ); ?>
