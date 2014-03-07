@@ -35,6 +35,11 @@ body {
     float: none;
     margin-top: 0;
 }
+@media (min-width: 768px){
+	.main-menu {
+    	display: table;
+	}
+}
 .main-menu ul li a{
 	color: #72869A;
     font-family: helvetica,arial;
@@ -120,8 +125,22 @@ body {
 .featured-properties-carousel{
 	border: 1px solid #DEDEDE;
 }
+#bannerHome {
+    margin: 30px auto;
+    text-align: center;
+}
 #footer-wrapper {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     padding-bottom: 0;
     color: #fff;
+}
+
+@media (max-width: 767px){
+	.main-menu{
+		margin-top: 80px;
+	}
+	.contact-number {
+	    color: #044C6A;
+	    top: 6px;
+	}
 }

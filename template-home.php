@@ -304,6 +304,16 @@ get_template_part('template-parts/slider');
                     ?>
                 </div><!-- End Main Content -->
 
+                <div id="bannerHome">
+                    <a href="http://castelonet.com.br/welcon/portal/?page_id=404">
+                        <img src="http://castelonet.com.br/welcon/portal/wp-content/uploads/2014/03/bannerRevistaWell.jpg" alt="Revista Well">
+                    </a>
+        &nbsp;&nbsp;
+                    <a href="http://castelonet.com.br/welcon/portal/?page_id=353">
+                        <img src="http://castelonet.com.br/welcon/portal/wp-content/uploads/2014/03/bannerParceiros.jpg" alt="Parceiros">
+                    </a>
+                </div>
+
                 <!-- empresas do grupo -->
                 <section class="featured-properties-carousel clearfix">
                     <h4><a target="_blank" href="http://www.grupoguareschi.com.br"><img src="./wp-content/themes/welcon/banners/grupo/grupo.png"></a></h4>
