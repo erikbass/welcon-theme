@@ -1,7 +1,7 @@
 /* INCORPORADORA e URBANISMO */
 jQuery(document).ready(function() { 	
 	/* iniciando posicionado */
-		jQuery(".andamento li .blocks").animate({opacity : 0}, 0);
+		jQuery(".andamento li .blocks").animate({opacity : 0, left: -373}, 0);
 
 		jQuery(".andamento li:first-child .blocks").animate({height : 290, width : 363, left : 0, opacity : 1}, 100);
 		jQuery(".andamento li:first-child .blocks .imgBlock").animate({height : 241, width : 363}, 100);
@@ -31,9 +31,9 @@ jQuery(document).ready(function() {
 			// Block 01 -> Block 02
 				jQuery(elementoPai).find('li:first-child .blocks').animate({height: 140, width: 735, top: 0, left: 373},100);
 				jQuery(elementoPai).find('li:first-child .blocks .imgBlock').animate({height : 140}, 100).animate({width : 500}, 100);
-			// Block 04 -> Block 01
-				jQuery(elementoPai).find('li:nth-child(4) .blocks').animate({height : 290, width : 363, left : 0, top:0, opacity:1}, 100);
-				jQuery(elementoPai).find('li:nth-child(4) .blocks .imgBlock').animate({height : 241}, 100).animate({width : 363}, 100);
+			// Block Last -> Block 01
+				jQuery(elementoPai).find('li:last-child .blocks').animate({height : 290, width : 363, left : 0, top:0, opacity:1}, 100);
+				jQuery(elementoPai).find('li:last-child .blocks .imgBlock').animate({height : 241}, 100).animate({width : 363}, 100);
 			//				
 			//Move o último item e o coloca como o primeiro
 				jQuery(elementoPai).find('li:first-child').before(jQuery(elementoPai).find('li:last'));

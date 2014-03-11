@@ -115,6 +115,9 @@ body {
 .es-carousel-wrapper ul li{
 	width: 153px !important;
 }
+.es-carousel img {
+    width: 140px;
+}
 .carousel{
 	margin-bottom: 0;
 }

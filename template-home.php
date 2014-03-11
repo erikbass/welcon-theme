@@ -58,8 +58,8 @@ get_template_part('template-parts/slider');
                     <!-- acesso rápido às categorias -->
                     <div id="acessorapido">
                         <ul>
-                            <li class="bgTom01"><a href="#lancamentos">Futuros lançamentos</a></li>
-                            <li class="bgTom02"><a href="#incorporadora">Incorporação</a></li>
+                            <li class="bgTom01"><a href="#lancamentos">Lançamentos</a></li>
+                            <li class="bgTom02"><a href="#incorporadora">Incorporadora</a></li>
                             <li class="bgTom03"><a href="#urbanismo">Urbanismo</a></li>
                         </ul>
                     </div>
@@ -138,7 +138,7 @@ get_template_part('template-parts/slider');
                             <script type="text/javascript" src="<?php echo content_url(); ?>/themes/welcon/js/block.js"></script>
                             
                             <section class="block lancamentos" id="lancamentos">
-                                <h2>Futuros Lançamentos</h2>                                
+                                <h2>Lançamentos</h2>                                
                                 <ul>
                                     <?
                                         $lancamentos_args = array(
@@ -242,7 +242,7 @@ get_template_part('template-parts/slider');
                             </section>
 
                             <section class="block andamento" id="incorporadora">
-                                <h2>Incorporação</h2>                                
+                                <h2>Incorporadora</h2>                                
                                 <ul>
                                     <?
                                         $lancamentos_args = array(
@@ -315,52 +315,33 @@ get_template_part('template-parts/slider');
                 </div>
 
                 <!-- empresas do grupo -->
+<style>
+.es-carousel-wrapper ul li {
+    margin-right: 0 !important;
+}
+.es-carousel-wrapper {
+    padding: 0;
+}
+</style>
                 <section class="featured-properties-carousel clearfix">
                     <h4><a target="_blank" href="http://www.grupoguareschi.com.br"><img src="./wp-content/themes/welcon/banners/grupo/grupo.png"></a></h4>
-                    <div class="carousel es-carousel-wrapper">
-                        <div class="es-carousel">
-                            <ul class="clearfix">
-                                <li>
-                                    <figure>
-                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gagro.png" /></a>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure>
-                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gcon.png" /></a>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure>
-                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gm.png" /></a>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure>
-                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gmix.png" /></a>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure>
-                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gnic.png" /></a>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure>
-                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gserv.png" /></a>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure>
-                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/mineracao.png" /></a>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure>
-                                        <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/welcon.png" /></a>
-                                    </figure>
-                                </li>
-                            </ul>
+                    <div class="tcarousel es-carousel-wrapper">
+                        <div class="es-carousel">                            
+                            <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/welcon-inc.png" /></a>
+
+                            <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/welcon-urb.png" /></a>
+
+                            <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gnic.png" /></a>
+
+                            <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gm.png" /></a>
+
+                            <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gserv.png" /></a>
+
+                            <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gmix.png" /></a>
+
+                            <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/mineracao.png" /></a>
+
+                            <a href="" target="_blank"><img src="./wp-content/themes/welcon/banners/grupo/gagro.png" /></a>
                         </div>
                     </div>
                 </section>
