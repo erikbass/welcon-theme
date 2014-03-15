@@ -22,7 +22,7 @@
                 /* Property Type. For example: Villa, Single Family Home */
                 $type_terms = get_the_terms( $post->ID,"property-type" );
                 if(!empty($type_terms)){
-                    echo '<small> - ';
+                    echo '<small>';
                     foreach($type_terms as $typ_trms){
                         echo $typ_trms->name;
                         break;

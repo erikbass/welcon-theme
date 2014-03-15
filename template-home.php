@@ -291,9 +291,7 @@ get_template_part('template-parts/slider');
                             </section>
                         <!-- BLOCKS fim -->
 
-                    </section>
-
-                    
+                    </section>                    
 
                     <?php
                     /* Featured Properties */
@@ -308,21 +306,21 @@ get_template_part('template-parts/slider');
                     <a href="http://castelonet.com.br/welcon/portal/?page_id=404">
                         <img src="http://castelonet.com.br/welcon/portal/wp-content/uploads/2014/03/bannerRevistaWell.jpg" alt="Revista Well">
                     </a>
-        &nbsp;&nbsp;
+                    &nbsp;&nbsp;
                     <a href="http://castelonet.com.br/welcon/portal/?page_id=353">
                         <img src="http://castelonet.com.br/welcon/portal/wp-content/uploads/2014/03/bannerParceiros.jpg" alt="Parceiros">
                     </a>
                 </div>
 
                 <!-- empresas do grupo -->
-<style>
-.es-carousel-wrapper ul li {
-    margin-right: 0 !important;
-}
-.es-carousel-wrapper {
-    padding: 0;
-}
-</style>
+                <style>
+                    .es-carousel-wrapper ul li {
+                        margin-right: 0 !important;
+                    }
+                    .es-carousel-wrapper {
+                        padding: 0;
+                    }
+                </style>
                 <section class="featured-properties-carousel clearfix">
                     <h4><a target="_blank" href="http://www.grupoguareschi.com.br"><img src="./wp-content/themes/welcon/banners/grupo/grupo.png"></a></h4>
                     <div class="tcarousel es-carousel-wrapper">
@@ -346,6 +344,26 @@ get_template_part('template-parts/slider');
                     </div>
                 </section>
                 <!-- fim empresas do grupo -->
+                <br>
+                <!-- facebook -->
+                <style type="text/css">
+                    .fb_iframe_widget > span, .fb_iframe_widget iframe, .fb_iframe_widget{
+                        max-width: 1168px !important;
+                    }
+                </style>
+                <section class="featured-properties-carousel clearfix">
+                    <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=293817344030174";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+
+                    <div class="fb-like-box" data-href="https://www.facebook.com/grupoguareschi" data-width="1168" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+                </section>
+                <!-- fim facebook -->
 
             </div> <!-- End span12 -->
 

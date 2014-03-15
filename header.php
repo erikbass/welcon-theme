@@ -94,6 +94,10 @@
                             <a title="<?php  bloginfo( 'name' ); ?>" href="<?php echo home_url(); ?>">
                                 <img src="<?php echo $logo_path; ?>" alt="<?php  bloginfo( 'name' ); ?>">
                             </a>
+
+                            <a class="logo02" title="<?php  bloginfo( 'name' ); ?>" href="<?php echo home_url(); ?>">
+                                <img src="./wp-content/themes/welcon/images/logo-urb.png" alt="<?php  bloginfo( 'name' ); ?>">
+                            </a>
                             <?php
                         }else{
                             ?>
