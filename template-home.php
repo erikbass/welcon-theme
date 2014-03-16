@@ -5,7 +5,7 @@
 get_header();
 
 // Slider
-get_template_part('template-parts/slider');
+get_template_part('template-parts/slider');      
 
 ?>
     <style type="text/css">
@@ -154,6 +154,10 @@ get_template_part('template-parts/slider');
                                         if ( $home_properties_query->have_posts() ) :
                                             while ( $home_properties_query->have_posts() ) :
                                                 $home_properties_query->the_post();
+
+                                                $city = retornaDetalhes($post->ID,'property-city');
+                                                $uf = retornaDetalhes($post->ID,'property-feature');
+
                                                 ?>
                                                 <li>
                                                     <div class="blocks bgTom0<?= $cor ?>">
@@ -161,7 +165,7 @@ get_template_part('template-parts/slider');
                                                             <div class="imgBlock" style="background-image: url('<?= wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) ?>');"></div>
                                                             <div class="txtBlock">
                                                                 <span><?php the_title(); ?></span>
-                                                                Porto Velho, Rond&ocirc;nia
+                                                                <?= $city.", ".$uf ?>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -192,14 +196,14 @@ get_template_part('template-parts/slider');
                                 <img src="./wp-content/themes/welcon/banners/bannerMapaAtuacao.jpg">
                             </a>
 
-                            <section class="block urbanismo andamento" id="urbanismo">
-                                <h2>Urbanismo</h2>                                
+                            <section class="block andamento" id="incorporadora">
+                                <h2>Incorporadora</h2>                                
                                 <ul>
                                     <?
                                         $lancamentos_args = array(
                                             'post_type' => 'property',
                                             'tax_query' => array(
-                                                array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 9)
+                                                array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 17)
                                             )
                                         );
 
@@ -209,6 +213,9 @@ get_template_part('template-parts/slider');
                                         if ( $home_properties_query->have_posts() ) :
                                             while ( $home_properties_query->have_posts() ) :
                                                 $home_properties_query->the_post();
+
+                                                $city = retornaDetalhes($post->ID,'property-city');
+                                                $uf = retornaDetalhes($post->ID,'property-feature');
                                                 ?>
                                                 <li>
                                                     <div class="blocks bgTom0<?= $cor ?>">
@@ -216,7 +223,7 @@ get_template_part('template-parts/slider');
                                                             <div class="imgBlock" style="background-image: url('<?= wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) ?>');"></div>
                                                             <div class="txtBlock">
                                                                 <span><?php the_title(); ?></span>
-                                                                Porto Velho, Rond&ocirc;nia
+                                                                <?= $city.", ".$uf ?>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -241,14 +248,14 @@ get_template_part('template-parts/slider');
                                 </div>
                             </section>
 
-                            <section class="block andamento" id="incorporadora">
-                                <h2>Incorporadora</h2>                                
+                            <section class="block urbanismo andamento" id="urbanismo">
+                                <h2>Urbanismo</h2>                                
                                 <ul>
                                     <?
                                         $lancamentos_args = array(
                                             'post_type' => 'property',
                                             'tax_query' => array(
-                                                array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 17)
+                                                array('taxonomy' => 'property-type', 'field' => 'term_id', 'terms' => 9)
                                             )
                                         );
 
@@ -258,6 +265,9 @@ get_template_part('template-parts/slider');
                                         if ( $home_properties_query->have_posts() ) :
                                             while ( $home_properties_query->have_posts() ) :
                                                 $home_properties_query->the_post();
+
+                                                $city = retornaDetalhes($post->ID,'property-city');
+                                                $uf = retornaDetalhes($post->ID,'property-feature');
                                                 ?>
                                                 <li>
                                                     <div class="blocks bgTom0<?= $cor ?>">
@@ -265,7 +275,7 @@ get_template_part('template-parts/slider');
                                                             <div class="imgBlock" style="background-image: url('<?= wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) ?>');"></div>
                                                             <div class="txtBlock">
                                                                 <span><?php the_title(); ?></span>
-                                                                Porto Velho, Rond&ocirc;nia
+                                                                <?= $city.", ".$uf ?>
                                                             </div>
                                                         </a>
                                                     </div>

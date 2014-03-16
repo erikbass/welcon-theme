@@ -47,7 +47,7 @@
         <?php the_content(); ?>
     </div>
 
-    <div class="features">
+    <div class="features" style="display:none;">
         <h4 class="title"><?php _e('Detalhes', 'framework'); ?></h4>
         <ul class="arrow-bullet-list clearfix">
             <?php

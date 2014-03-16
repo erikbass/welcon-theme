@@ -4,16 +4,16 @@ function create_property_post_type()
 {
 
   $labels = array(
-		'name' => __( 'Properties','framework'),
-		'singular_name' => __( 'Property','framework' ),
-		'add_new' => __('Add New','framework'),
-		'add_new_item' => __('Add New Property','framework'),
-		'edit_item' => __('Edit Property','framework'),
-		'new_item' => __('New Property','framework'),
-		'view_item' => __('View Property','framework'),
-		'search_items' => __('Search Property','framework'),
-		'not_found' =>  __('No Property found','framework'),
-		'not_found_in_trash' => __('No Property found in Trash','framework'),
+		'name' => __( 'Empreendimento','framework'),
+		'singular_name' => __( 'Empreendimento','framework' ),
+		'add_new' => __('Adicionar novo','framework'),
+		'add_new_item' => __('Adicionar novo Empreendimento','framework'),
+		'edit_item' => __('Editar Empreendimento','framework'),
+		'new_item' => __('Novo Empreendimento','framework'),
+		'view_item' => __('Visualizar Empreendimento','framework'),
+		'search_items' => __('Pesquisar Empreendimento','framework'),
+		'not_found' =>  __('Nenhum Empreendimento encontrado','framework'),
+		'not_found_in_trash' => __('Nenhum Empreendimento na Lixeira','framework'),
 		'parent_item_colon' => ''
 	  );
 
@@ -41,83 +41,22 @@ add_action('init', 'create_property_post_type');
 
 /* Create Property Taxonomies */
 function build_taxonomies(){
-    $labels = array(
-        'name' => __( 'Property Features', 'framework' ),
-        'singular_name' => __( 'Property Features', 'framework' ),
-        'search_items' =>  __( 'Search Property Features', 'framework' ),
-        'popular_items' => __( 'Popular Property Features', 'framework' ),
-        'all_items' => __( 'All Property Features', 'framework' ),
-        'parent_item' => __( 'Parent Property Feature', 'framework' ),
-        'parent_item_colon' => __( 'Parent Property Feature:', 'framework' ),
-        'edit_item' => __( 'Edit Property Feature', 'framework' ),
-        'update_item' => __( 'Update Property Feature', 'framework' ),
-        'add_new_item' => __( 'Add New Property Feature', 'framework' ),
-        'new_item_name' => __( 'New Property Feature Name', 'framework' ),
-        'separate_items_with_commas' => __( 'Separate Property Features with commas', 'framework' ),
-        'add_or_remove_items' => __( 'Add or remove Property Features', 'framework' ),
-        'choose_from_most_used' => __( 'Choose from the most used Property Features', 'framework' ),
-        'menu_name' => __( 'Property Features', 'framework' )
-    );
-
-    register_taxonomy(
-        'property-feature',
-        array('property'),
-        array(
-            'hierarchical' => false,
-            'labels' => $labels,
-            'show_ui' => true,
-            'query_var' => true,
-            'rewrite' => array('slug' => __('property-feature', 'framework'))
-        )
-    );
-
-
-    $type_labels = array(
-        'name' => __( 'Property Type', 'framework' ),
-        'singular_name' => __( 'Property Type', 'framework' ),
-        'search_items' =>  __( 'Search Property Types', 'framework' ),
-        'popular_items' => __( 'Popular Property Types', 'framework' ),
-        'all_items' => __( 'All Property Types', 'framework' ),
-        'parent_item' => __( 'Parent Property Type', 'framework' ),
-        'parent_item_colon' => __( 'Parent Property Type:', 'framework' ),
-        'edit_item' => __( 'Edit Property Type', 'framework' ),
-        'update_item' => __( 'Update Property Type', 'framework' ),
-        'add_new_item' => __( 'Add New Property Type', 'framework' ),
-        'new_item_name' => __( 'New Property Type Name', 'framework' ),
-        'separate_items_with_commas' => __( 'Separate Property Types with commas', 'framework' ),
-        'add_or_remove_items' => __( 'Add or remove Property Types', 'framework' ),
-        'choose_from_most_used' => __( 'Choose from the most used Property Types', 'framework' ),
-        'menu_name' => __( 'Property Types', 'framework' )
-    );
-
-    register_taxonomy(
-        'property-type',
-        array( 'property' ),
-        array(
-            'hierarchical' => false,
-            'labels' => $type_labels,
-            'show_ui' => true,
-            'query_var' => true,
-            'rewrite' => array('slug' => __('property-type', 'framework'))
-        )
-    );
-
     $city_labels = array(
-        'name' => __( 'Property City', 'framework' ),
-        'singular_name' => __( 'Property City', 'framework' ),
-        'search_items' =>  __( 'Search Property Cities', 'framework' ),
-        'popular_items' => __( 'Popular Property Cities', 'framework' ),
-        'all_items' => __( 'All Property Cities', 'framework' ),
-        'parent_item' => __( 'Parent Property City', 'framework' ),
-        'parent_item_colon' => __( 'Parent Property City:', 'framework' ),
-        'edit_item' => __( 'Edit Property City', 'framework' ),
-        'update_item' => __( 'Update Property City', 'framework' ),
-        'add_new_item' => __( 'Add New Property City', 'framework' ),
-        'new_item_name' => __( 'New Property City Name', 'framework' ),
-        'separate_items_with_commas' => __( 'Separate Property Cities with commas', 'framework' ),
-        'add_or_remove_items' => __( 'Add or remove Property Cities', 'framework' ),
-        'choose_from_most_used' => __( 'Choose from the most used Property Cities', 'framework' ),
-        'menu_name' => __( 'Property Cities', 'framework' )
+        'name' => __( 'Cidade', 'framework' ),
+        'singular_name' => __( 'Cidade', 'framework' ),
+        'search_items' =>  __( 'Pesquisar por Cidades', 'framework' ),
+        'popular_items' => __( 'Cidades populares', 'framework' ),
+        'all_items' => __( 'Todas as Cidades', 'framework' ),
+        'parent_item' => __( 'Parent Cidade', 'framework' ),
+        'parent_item_colon' => __( 'Parent Cidade:', 'framework' ),
+        'edit_item' => __( 'Editar Cidade', 'framework' ),
+        'update_item' => __( 'Atualizar Cidade', 'framework' ),
+        'add_new_item' => __( 'Adicionar nova Cidade', 'framework' ),
+        'new_item_name' => __( 'Nova Cidade', 'framework' ),
+        'separate_items_with_commas' => __( 'Separe Cidades com vírgulas', 'framework' ),
+        'add_or_remove_items' => __( 'Adicione ou remova Cidades', 'framework' ),
+        'choose_from_most_used' => __( 'Escolha das Cidades mais usadas', 'framework' ),
+        'menu_name' => __( 'Cidades', 'framework' )
     );
 
     register_taxonomy(
@@ -131,24 +70,83 @@ function build_taxonomies(){
             'rewrite' => array('slug' => __('property-city', 'framework'))
         )
     );
+    ////////////
+    $labels = array(
+        'name' => __( 'UF', 'framework' ),
+        'singular_name' => __( 'UF', 'framework' ),
+        'search_items' =>  __( 'Pesquisar por Estado', 'framework' ),
+        'popular_items' => __( 'Popular UF', 'framework' ),
+        'all_items' => __( 'Todas propriedades por Estado', 'framework' ),
+        'parent_item' => __( 'Parent Property Feature', 'framework' ),
+        'parent_item_colon' => __( 'Parent Property Feature:', 'framework' ),
+        'edit_item' => __( 'Edit Property Feature', 'framework' ),
+        'update_item' => __( 'Update Property Feature', 'framework' ),
+        'add_new_item' => __( 'Novo Estado', 'framework' ),
+        'new_item_name' => __( 'Novo Estado', 'framework' ),
+        'separate_items_with_commas' => __( 'Estados', 'framework' ),
+        'add_or_remove_items' => __( 'Adicione ou remova Estado', 'framework' ),
+        'choose_from_most_used' => __( 'Escolha dos Estados mais usados', 'framework' ),
+        'menu_name' => __( 'UF', 'framework' )
+    );
 
+    register_taxonomy(
+        'property-feature',
+        array('property'),
+        array(
+            'hierarchical' => false,
+            'labels' => $labels,
+            'show_ui' => true,
+            'query_var' => true,
+            'rewrite' => array('slug' => __('property-feature', 'framework'))
+        )
+    );
+    /////////////
+    $type_labels = array(
+        'name' => __( 'Tipo de Empreendimento', 'framework' ),
+        'singular_name' => __( 'Tipo de Empreendimento', 'framework' ),
+        'search_items' =>  __( 'Pesquisar por Tipo de Empreendimentos', 'framework' ),
+        'popular_items' => __( 'Populares Tipos de Empreendimentos', 'framework' ),
+        'all_items' => __( 'Todos os Tipos de Empreendimentos', 'framework' ),
+        'parent_item' => __( 'Parent Tipo de Empreendimento', 'framework' ),
+        'parent_item_colon' => __( 'Parent Tipo de Empreendimento:', 'framework' ),
+        'edit_item' => __( 'Editar Tipo de Empreendimento', 'framework' ),
+        'update_item' => __( 'Atualizar Tipo de Empreendimento', 'framework' ),
+        'add_new_item' => __( 'Adicionar novo Tipo de Empreendimento', 'framework' ),
+        'new_item_name' => __( 'Novo Tipo de Empreendimento Name', 'framework' ),
+        'separate_items_with_commas' => __( 'Separe Tipos de Empreendimentos por vírgula', 'framework' ),
+        'add_or_remove_items' => __( 'Adicione ou remova Tipos de Empreendimentos', 'framework' ),
+        'choose_from_most_used' => __( 'Escolha dos Tipos de Empreendimentos mais usados', 'framework' ),
+        'menu_name' => __( 'Tipos de Empreendimentos', 'framework' )
+    );
 
+    register_taxonomy(
+        'property-type',
+        array( 'property' ),
+        array(
+            'hierarchical' => false,
+            'labels' => $type_labels,
+            'show_ui' => true,
+            'query_var' => true,
+            'rewrite' => array('slug' => __('property-type', 'framework'))
+        )
+    );
+    ////////////
     $status_labels = array(
-        'name' => __( 'Property Status', 'framework' ),
-        'singular_name' => __( 'Property Status', 'framework' ),
-        'search_items' =>  __( 'Search Property Status', 'framework' ),
-        'popular_items' => __( 'Popular Property Status', 'framework' ),
-        'all_items' => __( 'All Property Status', 'framework' ),
-        'parent_item' => __( 'Parent Property Status', 'framework' ),
-        'parent_item_colon' => __( 'Parent Property Status:', 'framework' ),
-        'edit_item' => __( 'Edit Property Status', 'framework' ),
-        'update_item' => __( 'Update Property Status', 'framework' ),
-        'add_new_item' => __( 'Add New Property Status', 'framework' ),
-        'new_item_name' => __( 'New Property Status Name', 'framework' ),
-        'separate_items_with_commas' => __( 'Separate Property Status with commas', 'framework' ),
-        'add_or_remove_items' => __( 'Add or remove Property Status', 'framework' ),
-        'choose_from_most_used' => __( 'Choose from the most used Property Status', 'framework' ),
-        'menu_name' => __( 'Property Status', 'framework' )
+        'name' => __( 'Status do Empreendimento', 'framework' ),
+        'singular_name' => __( 'Status do Empreendimento', 'framework' ),
+        'search_items' =>  __( 'Pesquisar Status do Empreendimento', 'framework' ),
+        'popular_items' => __( 'Popular Status do Empreendimento', 'framework' ),
+        'all_items' => __( 'Todos os Status do Empreendimento', 'framework' ),
+        'parent_item' => __( 'Parent Status do Empreendimento', 'framework' ),
+        'parent_item_colon' => __( 'Parent Status do Empreendimento:', 'framework' ),
+        'edit_item' => __( 'Editar Status do Empreendimento', 'framework' ),
+        'update_item' => __( 'Atualizar Status do Empreendimento', 'framework' ),
+        'add_new_item' => __( 'Adicione novo Status do Empreendimento', 'framework' ),
+        'new_item_name' => __( 'Novo Status do Empreendimento', 'framework' ),
+        'separate_items_with_commas' => __( 'Separe Status do Empreendimento com vírgulas', 'framework' ),
+        'add_or_remove_items' => __( 'Adicione ou remova Status do Empreendimento', 'framework' ),
+        'choose_from_most_used' => __( 'Escolha do Status de Empreendimento mais usados ', 'framework' ),
+        'menu_name' => __( 'Status do Empreendimento', 'framework' )
     );
 
     register_taxonomy(
@@ -162,7 +160,6 @@ function build_taxonomies(){
             'rewrite' => array('slug' => __('property-status', 'framework'))
         )
     );
-
 }
 add_action( 'init', 'build_taxonomies', 0 );
 
@@ -173,18 +170,18 @@ function property_edit_columns($columns)
 
     $columns = array(
         "cb" => "<input type=\"checkbox\" />",
-        "title" => __( 'Property Title','framework' ),
+        "title" => __( 'Empreendimento','framework' ),
         "thumb" => __( 'Thumbnail','framework' ),
-        "address" => __('Address','framework'),
-		"city" => __( 'City','framework' ),
-		"type" => __('Type','framework'),
+        "address" => __('Endereço','framework'),
+		"city" => __( 'Cidade','framework' ),
+		"type" => __('Tipo','framework'),
 		"status" => __('Status','framework'),
-        "price" => __('Price','framework'),
-        "bed" => __('Beds','framework'),
-        "bath" => __('Baths','framework'),
-        "garage" => __('Garages','framework'),
-        "features" => __('Features','framework'),
-        "date" => __( 'Publish Time','framework' )
+        "price" => __('Preço','framework'),
+        "bed" => __('Quartos','framework'),
+        "bath" => __('Banheiros','framework'),
+        "garage" => __('Garagens','framework'),
+        "features" => __('UF','framework'),
+        "date" => __( 'Data de publicação','framework' )
     );
 
     return $columns;

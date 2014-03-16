@@ -913,9 +913,7 @@ function get_lightbox_plugin_class(){
 
 
 
-/*-----------------------------------------------------------------------------------*/
-/*	Generate Gallery Attribute
-/*-----------------------------------------------------------------------------------*/
+
 function generate_gallery_attribute(){
     $lightbox_plugin_class = get_lightbox_plugin_class();
     if($lightbox_plugin_class == 'pretty-photo'){
@@ -924,5 +922,17 @@ function generate_gallery_attribute(){
     return '';
 }
 
-
+/*-----------------------------------------------------------------------------------*/
+/*  Retorna Detalhes específicos do Empreendimento
+/*-----------------------------------------------------------------------------------*/
+function retornaDetalhes($id, $detalhe){
+    $detalhe_terms = get_the_terms($id, $detalhe);
+    if(!empty( $detalhe_terms )){
+        foreach( $detalhe_terms as $term ){
+            $infoDetalhe = $term->name;
+            break;
+        }
+    }
+    return $infoDetalhe;
+}
 ?>

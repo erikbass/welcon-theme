@@ -8,8 +8,10 @@ get_header();
         <div class="page-head" style="background-repeat: no-repeat;background-position: center top;background-image: url('<?php echo $banner_image_path; ?>'); ">
             <div class="container">
                 <div class="wrap clearfix">
-                    <h1 class="page-title"><span><?php _e('Empreendimento', 'framework'); ?></span></h1>
-                    <p><?php the_title(); ?></p>
+                    <h1 class="page-title">
+                        <span><?php the_title(); ?></span>
+                    </h1>
+                    <p><?= retornaDetalhes($post->ID,'property-status') ?></p>
                 </div>
             </div>
         </div><!-- End Page Head -->
