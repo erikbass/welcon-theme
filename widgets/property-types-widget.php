@@ -66,8 +66,20 @@ class Property_Types_Widget extends WP_Widget {
             }
             ?>
         </ul>
-        <?php
 
+        <h3 class="title">Por Estados</h3>
+        <ul>
+        <?php
+            $terms = get_terms('property-feature');
+            $count = count($terms);
+            if ( $count > 0 ){
+                foreach ($terms as $term){
+                    echo '<li><a href="' . get_term_link( $term->slug, $term->taxonomy ) . '">' . $term->name . '</a></li>';
+                }
+            }
+        ?>
+        </ul>
+        <?php
     }
 
 }
