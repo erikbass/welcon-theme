@@ -95,7 +95,7 @@
                                 <img src="<?php echo $logo_path; ?>" alt="<?php  bloginfo( 'name' ); ?>">
                             </a>
 
-                            <a class="logo02" title="<?php  bloginfo( 'name' ); ?>" href="<?php echo home_url(); ?>">
+                            <a class="logo02 nomobile" title="<?php  bloginfo( 'name' ); ?>" href="<?php echo home_url(); ?>">
                                 <img src="./wp-content/themes/welcon/images/logo-urb.png" alt="<?php  bloginfo( 'name' ); ?>">
                             </a>
                             <?php
@@ -121,7 +121,7 @@
                         <?php
                         $header_phone = get_option('theme_header_phone');
                         if( !empty($header_phone) ){
-                            echo '<h2  class="contact-number"><i class="icon-phone"></i>'.$header_phone.' <span class="outer-strip"></span></h2>';
+                            echo '<h2 class="contact-number"><i class="icon-phone"></i>'.$header_phone.'<span class="outer-strip"></span></h2>';
                         }
                         ?>
 

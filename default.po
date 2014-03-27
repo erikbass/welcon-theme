@@ -1492,7 +1492,7 @@ msgstr ""
 #. Text in function
 #: realhomes/framework/meta-box/config-meta-boxes.php:1
 msgid ""
-"Provide property size with related measurement unit. Example Value: 240 sq ft"
+"Provide Empreendimento size with related measurement unit. Example Value: 240 sq ft"
 msgstr ""
 
 #. Text in function

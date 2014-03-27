@@ -313,11 +313,11 @@ get_template_part('template-parts/slider');
                 </div><!-- End Main Content -->
 
                 <div id="bannerHome">
-                    <a href="http://castelonet.com.br/welcon/portal/?page_id=404">
+                    <a href="?page_id=404">
                         <img src="http://castelonet.com.br/welcon/portal/wp-content/uploads/2014/03/bannerRevistaWell.jpg" alt="Revista Well">
                     </a>
                     &nbsp;&nbsp;
-                    <a href="http://castelonet.com.br/welcon/portal/?page_id=353">
+                    <a href="?page_id=353">
                         <img src="http://castelonet.com.br/welcon/portal/wp-content/uploads/2014/03/bannerParceiros.jpg" alt="Parceiros">
                     </a>
                 </div>
